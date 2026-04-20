@@ -1,0 +1,1418 @@
+{
+  "level": "cap",
+  "label": "CAP",
+  "domains": [
+    {
+      "domain_key": "statistique_probabilites",
+      "domain_label": "Statistique – Probabilités",
+      "domain_overview": {
+        "description_exact": [
+          "De nombreuses situations issues du domaine professionnel, d’autres disciplines ou de la vie courante font appel à des données statistiques."
+        ],
+        "main_objectives_exact": [
+          "identifier, classer, hiérarchiser l'information ;",
+          "exploiter et représenter des données ;",
+          "interpréter un résultat statistique ;",
+          "calculer des probabilités dans des cas simples."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "statistique_une_variable",
+          "label": "Statistique à une variable",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Les élèves apprennent à synthétiser l’information et à proposer des représentations pertinentes.",
+              "Inversement, ils interprètent les informations chiffrées données sous forme de graphiques, de diagrammes en bâtons ou circulaires.",
+              "Ils découvrent la notion d’intervalle, présentée comme ensemble de nombres vérifiant des inégalités.",
+              "Les situations étudiées sont concrètes et comportent des données liées aux spécialités professionnelles ou issues de la vie courante."
+            ],
+            "capacities_exact": [
+              "Recueillir et organiser des données.",
+              "Calculer un effectif total, calculer des fréquences, mentalement dans quelques cas simples*, avec une calculatrice ou un tableur dans les autres cas.",
+              "Lire et interpréter les données d’une série statistique présentées dans un tableau ou représentées graphiquement, sous forme de classes ou non.",
+              "Représenter une série statistique par un diagramme en bâtons ou circulaire, sur papier dans quelques cas simples puis à l’aide d’un logiciel.",
+              "Calculer la moyenne d’une série statistique mentalement dans quelques cas simples*, avec une calculatrice ou un tableur dans les autres cas."
+            ],
+            "knowledge_exact": [
+              "Regroupement par classes d’une série statistique.",
+              "Effectifs, fréquences.",
+              "Diagrammes en bâtons, diagrammes circulaires.",
+              "Moyenne."
+            ],
+            "comments_exact": [
+              "Lorsque les données sont en grand nombre, elles sont systématiquement traitées à l’aide d’un tableur.",
+              "Le calcul de la moyenne à l’aide du centre des classes ainsi que la construction et l’interprétation d’histogrammes ne sont pas des attendus du programme."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Synthétiser l’information et proposer des représentations pertinentes.",
+              "Interpréter des informations chiffrées données sous forme de graphiques, de diagrammes en bâtons ou circulaires.",
+              "Découvrir la notion d’intervalle comme ensemble de nombres vérifiant des inégalités.",
+              "Travailler sur des situations concrètes liées aux spécialités professionnelles ou issues de la vie courante."
+            ],
+            "digital_tools_role": [
+              "Lorsque les données sont en grand nombre, elles sont systématiquement traitées à l’aide d’un tableur.",
+              "La représentation d’une série statistique peut être faite à l’aide d’un logiciel."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Les connaissances de ce domaine ont déjà été abordées au collège et sont réinvesties dans des situations issues du domaine professionnel, d’autres disciplines ou de la vie courante."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Lecture de tableaux et de graphiques simples.",
+                "Organisation de données.",
+                "Notion de moyenne.",
+                "Premiers traitements statistiques."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire organiser les données avant tout calcul.",
+              "Faire distinguer effectif et fréquence.",
+              "Faire choisir entre papier et outil numérique selon la taille des données.",
+              "Faire expliciter pourquoi un diagramme en bâtons ou circulaire est pertinent.",
+              "Faire verbaliser ce que représente la moyenne dans la situation étudiée.",
+              "Faire introduire la notion d’intervalle comme ensemble de nombres vérifiant des inégalités."
+            ],
+            "discouraged_methods": [
+              "Entrer dans des traitements statistiques non prévus par le programme.",
+              "Utiliser l’histogramme comme attendu du module.",
+              "Calculer la moyenne à l’aide du centre des classes."
+            ],
+            "forbidden_methods": [
+              "Présenter comme exigibles la construction et l’interprétation d’histogrammes.",
+              "Présenter comme attendue du programme la moyenne calculée à l’aide du centre des classes.",
+              "Remplacer systématiquement la lecture et l’interprétation par un simple calcul mécanique."
+            ],
+            "common_pitfalls": [
+              "Confondre effectif et fréquence.",
+              "Lire trop vite un graphique sans tenir compte des légendes ou des unités.",
+              "Choisir une représentation inadaptée.",
+              "Oublier qu’un grand nombre de données doit être traité avec un tableur.",
+              "Réduire la moyenne à une procédure sans interprétation."
+            ],
+            "diagnostic_prompts": [
+              "Quelles sont les données à recueillir et à organiser ?",
+              "Quelle différence fais-tu entre effectif et fréquence ?",
+              "Quelle représentation choisis-tu ici : diagramme en bâtons ou diagramme circulaire ?",
+              "Que représente la moyenne dans cette situation ?",
+              "Les données sont-elles assez nombreuses pour justifier l’usage d’un tableur ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          },
+          "automatismes_after_treatment": [
+            "Calcul d’un effectif total, calcul de fréquences, mentalement dans quelques cas simples.",
+            "Calcul de la moyenne d’une série statistique, mentalement dans quelques cas simples."
+          ]
+        },
+        {
+          "chapter_key": "probabilites",
+          "label": "Probabilités",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Dans ce module, les élèves observent la stabilisation des fréquences vers la probabilité.",
+              "Ils abordent les questions relatives au hasard et apprennent à calculer des probabilités.",
+              "On prend appui sur des situations simples, issues de la vie courante ou du domaine professionnel.",
+              "La compréhension des concepts est facilitée par l’expérimentation physique (jets de dés, lancers de pièces de monnaie…) ou la simulation à l’aide d’un logiciel."
+            ],
+            "capacities_exact": [
+              "Expérimenter pour mettre en évidence la fluctuation des fréquences.",
+              "Observer la stabilisation des fréquences, notamment à l’aide d’une simulation informatique fournie.",
+              "Calculer des probabilités dans des cas simples."
+            ],
+            "knowledge_exact": [
+              "Expérience aléatoire, ensemble des issues possibles, événement.",
+              "Fluctuation d’une fréquence relative à un caractère, sur des échantillons de taille n fixée.",
+              "Stabilisation des fréquences vers la probabilité de l'événement lorsque la taille de l’échantillon augmente.",
+              "Probabilité d’un événement.",
+              "La probabilité d’un événement est comprise entre 0 et 1.",
+              "Probabilités d’événements impossibles, certains, contraires."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Modifier le script d’un programme fourni pour simuler une expérience aléatoire."
+            ],
+            "comments_exact": [
+              "La mise en évidence de la fluctuation et la vérification de la stabilisation des fréquences s’appuient sur la simulation d’expériences aléatoires à une épreuve, à l’aide d’un script fourni ou d’une feuille de calcul préparée.",
+              "L’ensemble des issues est fini. Les calculs de probabilités, à partir de dénombrements, s’appliquent à des contextes simples concernant une expérience aléatoire à une ou deux épreuves indépendantes.",
+              "Si des tableaux à double entrée sont utilisés, ils sont fournis aux élèves déjà partiellement complétés.",
+              "La construction d’un arbre de dénombrement peut aider à la compréhension de la situation étudiée."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Observer la fluctuation des fréquences puis leur stabilisation vers la probabilité.",
+              "Aborder les questions relatives au hasard dans des situations simples.",
+              "Faciliter la compréhension par l’expérimentation physique ou la simulation.",
+              "Rester sur un ensemble des issues fini et sur des cas simples."
+            ],
+            "digital_tools_role": [
+              "Observer la stabilisation des fréquences à l’aide d’une simulation informatique fournie.",
+              "S’appuyer sur un script fourni ou une feuille de calcul préparée pour simuler une expérience aléatoire."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Les connaissances de probabilité ont déjà été abordées au collège et sont ici réinvesties dans des situations simples issues de la vie courante ou du domaine professionnel."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Première approche du hasard.",
+                "Premiers calculs de probabilités simples.",
+                "Lecture de tableaux simples.",
+                "Expériences aléatoires élémentaires."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire expérimenter avant de formaliser.",
+              "Faire distinguer expérience aléatoire, issue et événement.",
+              "Faire observer la fluctuation sur des échantillons de taille fixée.",
+              "Faire observer la stabilisation lorsque la taille de l’échantillon augmente.",
+              "Faire utiliser une simulation fournie, un script fourni ou une feuille de calcul préparée.",
+              "Faire utiliser un tableau à double entrée seulement s’il est déjà partiellement complété."
+            ],
+            "discouraged_methods": [
+              "Entrer dans des probabilités avancées qui dépassent le CAP.",
+              "Multiplier les formalismes inutiles.",
+              "Faire produire seul un tableau complexe sans guidage."
+            ],
+            "forbidden_methods": [
+              "Sortir du cadre d’un ensemble fini des issues.",
+              "Présenter comme exigibles des contenus de probabilités conditionnelles ou d’arbres pondérés hors programme.",
+              "Demander des constructions non prévues sans appui sur des supports fournis."
+            ],
+            "common_pitfalls": [
+              "Confondre issue et événement.",
+              "Confondre fréquence observée et probabilité théorique.",
+              "Oublier que la probabilité est comprise entre 0 et 1.",
+              "Mal interpréter un événement impossible, certain ou contraire.",
+              "Vouloir généraliser au-delà des cas simples."
+            ],
+            "diagnostic_prompts": [
+              "Quelle est l’expérience aléatoire étudiée ?",
+              "Quelles sont les issues possibles ?",
+              "Quel est l’événement considéré ?",
+              "Que constates-tu quand tu répètes l’expérience un grand nombre de fois ?",
+              "La fréquence observée fluctue-t-elle ? Se stabilise-t-elle ?",
+              "La probabilité trouvée est-elle bien comprise entre 0 et 1 ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "algebre_analyse",
+      "domain_label": "Algèbre – Analyse",
+      "domain_overview": {
+        "description_exact": [
+          "Les connaissances de ce domaine ont déjà été abordées au collège et seront réinvesties pour résoudre des problèmes issus des autres disciplines, du secteur professionnel ou de la vie courante.",
+          "Ce domaine se compose des modules : Résolution d’un problème relevant de la proportionnalité, Résolution d’un problème du premier degré, Fonctions.",
+          "Les possibilités offertes par les outils numériques peuvent aider à surmonter certains obstacles rencontrés par les élèves.",
+          "L’utilisation du tableur et d’un logiciel de géométrie dynamique, commencée au collège, est renforcée et trouve particulièrement sa place dans certains modules de ce domaine."
+        ],
+        "main_objectives_exact": [],
+        "digital_tools_exact": [
+          "Les possibilités offertes par les outils numériques peuvent aider à surmonter certains obstacles rencontrés par les élèves.",
+          "L’utilisation du tableur et d’un logiciel de géométrie dynamique, commencée au collège, est renforcée et trouve particulièrement sa place dans certains modules de ce domaine."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "resolution_probleme_proportionnalite",
+          "label": "Résolution d’un problème relevant de la proportionnalité",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de consolider l’identification et l’exploitation de situations de proportionnalité.",
+              "L’utilisation des outils numériques est pertinente pour traiter ce type de situations.",
+              "Il est important de présenter des situations de non-proportionnalité."
+            ],
+            "links_with_college_exact": [
+              "Les connaissances de ce domaine ont déjà été abordées au collège et seront réinvesties pour résoudre des problèmes issus des autres disciplines, du secteur professionnel ou de la vie courante."
+            ],
+            "capacities_exact": [
+              "Reconnaître que deux suites de nombres sont proportionnelles.",
+              "Calculer une quatrième proportionnelle*.",
+              "Traiter des problèmes relatifs à deux suites proportionnelles de nombres.",
+              "Étant donné un tableau numérique incomplet lié à deux suites proportionnelles de nombres :",
+              "- trouver le coefficient de proportionnalité* permettant de passer d’une suite à l’autre ;",
+              "- compléter le tableau.",
+              "Traiter des problèmes de pourcentages et d’échelles liés à la vie courante ou professionnelle.",
+              "Connaissant deux des données suivantes :",
+              "- pourcentage ou échelle,",
+              "- valeur initiale,",
+              "- valeur finale,",
+              "calculer la troisième*."
+            ],
+            "knowledge_exact": [
+              "Proportionnalité :",
+              "- suites proportionnelles de nombres ;",
+              "- coefficient de proportionnalité.",
+              "Pourcentage et échelle.",
+              "Coefficients multiplicateurs."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Calculer une des valeurs connaissant les deux autres parmi : pourcentage ou échelle, valeur initiale, valeur finale."
+            ],
+            "comments_exact": [
+              "Les calculs commerciaux ou financiers peuvent être présentés à titre d’exemple (conversion des monnaies, indices simples d’un prix). Toutes les informations nécessaires sont fournies."
+            ],
+            "bivalence_exact": [
+              "La proportionnalité est mise en œuvre dans les domaines Électricité, Mécanique et Chimie du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Consolider l’identification et l’exploitation de situations de proportionnalité.",
+              "Présenter aussi des situations de non-proportionnalité.",
+              "Traiter des problèmes de pourcentages et d’échelles liés à la vie courante ou professionnelle."
+            ],
+            "digital_tools_role": [
+              "L’utilisation des outils numériques est pertinente pour traiter ce type de situations."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Les connaissances de ce domaine ont déjà été abordées au collège."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Situations de proportionnalité.",
+                "Tableaux de proportionnalité.",
+                "Pourcentages.",
+                "Échelles."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire identifier si la situation relève ou non de la proportionnalité.",
+              "Faire rechercher le coefficient de proportionnalité lorsqu’il existe.",
+              "Faire utiliser les outils numériques pour traiter la situation quand cela aide l’élève.",
+              "Faire relier pourcentage, échelle, valeur initiale et valeur finale.",
+              "Faire expliciter les coefficients multiplicateurs."
+            ],
+            "discouraged_methods": [
+              "Rester uniquement sur des automatismes sans mise en situation.",
+              "Éviter les situations de non-proportionnalité alors qu’elles sont explicitement demandées."
+            ],
+            "forbidden_methods": [
+              "Présenter comme proportionnelle une situation qui ne l’est pas.",
+              "Ajouter des calculs commerciaux ou financiers non fournis quand toutes les informations nécessaires ne sont pas données."
+            ],
+            "common_pitfalls": [
+              "Confondre situation proportionnelle et non proportionnelle.",
+              "Chercher un coefficient de proportionnalité là où il n’existe pas.",
+              "Confondre pourcentage et coefficient multiplicateur.",
+              "Ne pas identifier correctement les trois données parmi pourcentage ou échelle, valeur initiale, valeur finale."
+            ],
+            "diagnostic_prompts": [
+              "Les deux suites de nombres sont-elles proportionnelles ?",
+              "Quel est le coefficient de proportionnalité ?",
+              "La situation est-elle une situation de non-proportionnalité ?",
+              "Quelles sont les deux données connues parmi pourcentage ou échelle, valeur initiale, valeur finale ?",
+              "Quel coefficient multiplicateur utilises-tu ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          },
+          "automatismes_after_treatment": [
+            "Calcul d’une quatrième proportionnelle.",
+            "Détermination d’un coefficient de proportionnalité d’un tableau comportant deux suites de nombres proportionnelles.",
+            "Calcul d’une des valeurs connaissant les deux autres parmi : pourcentage ou échelle, valeur initiale, valeur finale."
+          ]
+        },
+        {
+          "chapter_key": "resolution_probleme_premier_degre",
+          "label": "Résolution d’un problème du premier degré",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est d’étudier et de résoudre des problèmes se ramenant à une équation du premier degré à une inconnue."
+            ],
+            "links_with_college_exact": [
+              "Les connaissances de ce domaine ont déjà été abordées au collège et seront réinvesties pour résoudre des problèmes issus des autres disciplines, du secteur professionnel ou de la vie courante."
+            ],
+            "capacities_exact": [
+              "Résoudre algébriquement une équation du type ax + b = c*, où x est l’inconnue (a, b et c étant des nombres réels, et a non nul).",
+              "Modéliser un problème par une équation du premier degré à une inconnue et le résoudre."
+            ],
+            "knowledge_exact": [
+              "Méthode de résolution algébrique d'une équation du premier degré à une inconnue."
+            ],
+            "comments_exact": [
+              "Les résolutions d’équations sont évaluées dans le contexte d’un problème ou d’une situation professionnelle. Les élèves doivent cependant être entraînés à des résolutions décontextualisées, dans le cadre de la formation.",
+              "Les problèmes abordés peuvent se ramener à des équations du premier degré du type ax + b = cx + d. Cependant, toute virtuosité calculatoire est exclue."
+            ],
+            "complements_exact": [
+              "Inéquations du premier degré à une inconnue : résolution graphique, à l’aide des outils numériques, d’inéquations permettant de résoudre un problème issu du domaine professionnel s’y ramenant.",
+              "Systèmes de deux équations du premier degré à deux inconnues : résolution graphique, à l’aide des outils numériques, de problèmes issus du domaine professionnel s’y ramenant."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans les domaines Électricité et Mécanique du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Étudier et résoudre des problèmes se ramenant à une équation du premier degré à une inconnue.",
+              "Évaluer dans le contexte d’un problème ou d’une situation professionnelle.",
+              "Entraîner aussi à des résolutions décontextualisées dans le cadre de la formation.",
+              "Exclure toute virtuosité calculatoire."
+            ],
+            "digital_tools_role": [
+              "Les compléments du programme sur les inéquations et les systèmes sont traités graphiquement à l’aide des outils numériques."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Les connaissances de ce domaine ont déjà été abordées au collège."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Équations simples.",
+                "Notion d’inconnue.",
+                "Premières résolutions algébriques.",
+                "Traduction d’une situation par une égalité."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire modéliser la situation par une équation du premier degré à une inconnue.",
+              "Faire résoudre algébriquement une équation du type ax + b = c.",
+              "Faire vérifier la cohérence de la solution dans le contexte.",
+              "Pour les compléments du programme, faire passer par une résolution graphique avec outils numériques."
+            ],
+            "discouraged_methods": [
+              "Chercher une virtuosité calculatoire alors qu’elle est explicitement exclue.",
+              "Rester seulement dans du décontextualisé."
+            ],
+            "forbidden_methods": [
+              "Présenter les compléments du programme comme des attendus certificatifs.",
+              "Exiger des techniques de calcul élaborées sur les équations du type ax + b = cx + d."
+            ],
+            "common_pitfalls": [
+              "Mal modéliser le problème.",
+              "Perdre le sens de l’inconnue.",
+              "Oublier de vérifier la solution dans la situation étudiée.",
+              "Se lancer dans des manipulations algébriques inutiles."
+            ],
+            "diagnostic_prompts": [
+              "Quelle est l’inconnue ?",
+              "Quelle équation du premier degré modélise le problème ?",
+              "Peux-tu résoudre l’équation du type ax + b = c ?",
+              "La solution trouvée est-elle cohérente dans le contexte ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          },
+          "automatismes_after_treatment": [
+            "Résolution algébrique d’une équation se ramenant à une équation du type ax + b = c, où x est l’inconnue (a, b et c étant des nombres réels, a étant non nul)."
+          ]
+        },
+        {
+          "chapter_key": "fonctions",
+          "label": "Fonctions",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de consolider les connaissances et les propriétés relatives à la notion de fonction, et d’exploiter la courbe représentative d’une fonction.",
+              "Les outils numériques sont utilisés pour éviter toute technicité de calcul."
+            ],
+            "links_with_college_exact": [
+              "Les connaissances de ce domaine ont déjà été abordées au collège et seront réinvesties pour résoudre des problèmes issus des autres disciplines, du secteur professionnel ou de la vie courante."
+            ],
+            "capacities_exact": [
+              "Obtenir :",
+              "- l’image d’un nombre réel par une fonction donnée ;",
+              "- un éventuel antécédent d’un nombre par une fonction donnée ;",
+              "- un tableau de valeurs d’une fonction donnée.",
+              "Dans un plan muni d’un repère orthogonal :",
+              "- placer un point connaissant ses coordonnées cartésiennes* ;",
+              "- construire la représentation graphique d’une fonction donnée.",
+              "À partir de la représentation graphique, sur un intervalle [a ; b] donné, d’une fonction ƒ :",
+              "- donner l’image d’un nombre réel par ƒ * ;",
+              "- donner un ou plusieurs antécédents éventuels d’un nombre réel par ƒ * ;",
+              "- décrire les variations de ƒ avec un vocabulaire adapté* ;",
+              "- compléter un tableau de variations.",
+              "Vérifier qu’une fonction est linéaire connaissant un des modes de représentation suivants :",
+              "- un tableau de valeurs ;",
+              "- une représentation graphique ;",
+              "- son expression algébrique.",
+              "Passer d’un mode de représentation à un autre.",
+              "Déterminer la fonction linéaire qui modélise une situation de proportionnalité."
+            ],
+            "knowledge_exact": [
+              "Notion de fonction :",
+              "- notation ƒ(x) ;",
+              "- tableau de valeurs.",
+              "Variable, fonction, antécédent, image.",
+              "Repérage dans un plan : coordonnées cartésiennes d’un point.",
+              "Courbe représentative d’une fonction.",
+              "Intervalle [a ; b], où a et b sont des réels.",
+              "Fonction croissante ou décroissante sur un intervalle donné.",
+              "Tableau de variations.",
+              "Fonction linéaire.",
+              "Lien avec une situation de proportionnalité.",
+              "Notation : ƒ(x) = ax, où a est un nombre réel non nul, coefficient de proportionnalité."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Construire un tableau de valeurs d’une fonction linéaire."
+            ],
+            "comments_exact": [
+              "Les axes et l’origine du repère sont donnés, les axes sont gradués.",
+              "Dresser en toute autonomie un tableau de variations n’est pas exigible."
+            ],
+            "complements_exact": [
+              "Fonction affine : notation ƒ(x) = ax + b, où a et b sont des nombres donnés en écriture décimale. Représentation graphique d’une fonction affine. Le lien entre le sens de variation et le signe du coefficient a est établi. L’exploitation de la représentation graphique se fait en liaison avec le domaine professionnel."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans les domaines Thermique et Électricité du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Consolider la notion de fonction et exploiter la courbe représentative d’une fonction.",
+              "Utiliser les outils numériques pour éviter toute technicité de calcul.",
+              "Travailler l’image, les antécédents, les variations et la fonction linéaire.",
+              "Ne pas exiger l’autonomie complète pour dresser un tableau de variations."
+            ],
+            "digital_tools_role": [
+              "Les outils numériques sont utilisés pour éviter toute technicité de calcul."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Les connaissances de ce domaine ont déjà été abordées au collège."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Repérage dans le plan.",
+                "Lecture d’une courbe.",
+                "Notion d’image et d’antécédent.",
+                "Première approche des fonctions linéaires."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire obtenir une image, un antécédent éventuel et un tableau de valeurs pour une fonction donnée.",
+              "Faire placer un point connaissant ses coordonnées cartésiennes dans un plan muni d’un repère orthogonal.",
+              "Faire construire la représentation graphique d’une fonction donnée.",
+              "Faire lire la courbe représentative sur un intervalle [a ; b] donné.",
+              "Faire vérifier qu’une fonction est linéaire à partir d’un tableau, d’un graphique ou d’une expression algébrique.",
+              "Faire déterminer la fonction linéaire qui modélise une situation de proportionnalité.",
+              "Pour le complément, faire traiter la fonction affine seulement comme complément du programme."
+            ],
+            "discouraged_methods": [
+              "Ajouter de la technicité de calcul alors que les outils numériques doivent l’éviter.",
+              "Exiger que l’élève dresse en toute autonomie un tableau de variations."
+            ],
+            "forbidden_methods": [
+              "Présenter la fonction affine comme attendue de certification au même niveau que le cœur du module.",
+              "Supprimer le lien entre fonction linéaire et situation de proportionnalité."
+            ],
+            "common_pitfalls": [
+              "Confondre image et antécédent.",
+              "Lire incorrectement un graphique.",
+              "Se tromper dans le placement d’un point.",
+              "Oublier qu’un tableau de variations autonome n’est pas exigible.",
+              "Ne pas reconnaître une fonction linéaire à partir d’un mode de représentation."
+            ],
+            "diagnostic_prompts": [
+              "Quelle est l’image de ce nombre réel ?",
+              "Existe-t-il un antécédent pour cette valeur ?",
+              "Peux-tu lire les variations de la fonction sur [a ; b] ?",
+              "La fonction est-elle linéaire ? Comment le vérifies-tu ?",
+              "Quelle fonction linéaire modélise cette situation de proportionnalité ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          },
+          "automatismes_after_treatment": [
+            "Placement d’un point connaissant ses coordonnées cartésiennes dans un plan muni d’un repère orthogonal.",
+            "À partir de la représentation graphique d’une fonction ƒ, sur un intervalle [a ; b] donné, lecture de l’image d’un nombre réel par ƒ.",
+            "À partir de la représentation graphique d’une fonction ƒ, sur un intervalle [a ; b] donné, lecture des antécédents éventuels d’un nombre réel par ƒ.",
+            "À partir de la représentation graphique d’une fonction ƒ, sur un intervalle [a ; b] donné, lecture des variations de ƒ avec un vocabulaire adapté."
+          ]
+        }
+      ]
+    },
+    {
+      "domain_key": "calculs_commerciaux_financiers",
+      "domain_label": "Calculs commerciaux et financiers",
+      "specific_condition": "uniquement pour les CAP du groupement 2",
+      "domain_overview": {
+        "description_exact": [
+          "Ce domaine permet de renforcer la maîtrise des pourcentages communément utilisés dans les organisations (entreprises commerciales, associations, établissements publics) lors de l’établissement ou de l’utilisation de divers documents (factures, bulletins de paye, documents financiers…).",
+          "Ce module se prête à des séances de co-intervention, par exemple lors de l’utilisation de logiciels métiers."
+        ],
+        "main_objectives_exact": [
+          "renforcer la maîtrise des pourcentages communément utilisés dans les organisations ;",
+          "établir ou utiliser divers documents professionnels comme des factures, bulletins de paye et documents financiers ;",
+          "calculer un intérêt simple et une valeur acquise ;",
+          "déterminer un taux annuel de placement, une durée de placement ou le montant du capital placé."
+        ],
+        "digital_tools_exact": [
+          "Ce module se prête à des séances de co-intervention, par exemple lors de l’utilisation de logiciels métiers."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "calculs_commerciaux_financiers_cap",
+          "label": "Calculs commerciaux et financiers",
+          "groupements": [
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Ce domaine permet de renforcer la maîtrise des pourcentages communément utilisés dans les organisations (entreprises commerciales, associations, établissements publics) lors de l’établissement ou de l’utilisation de divers documents (factures, bulletins de paye, documents financiers…).",
+              "Ce module se prête à des séances de co-intervention, par exemple lors de l’utilisation de logiciels métiers."
+            ],
+            "capacities_exact": [
+              "Compléter une facture, un bon de commande, réaliser un devis en déterminant dans le cadre de situations professionnelles :",
+              "- un prix ;",
+              "- un coût ;",
+              "- une marge ;",
+              "- une taxe ;",
+              "- une réduction commerciale (remise, rabais, ristourne) ;",
+              "- un taux.",
+              "Calculer le montant :",
+              "- d’un intérêt simple ;",
+              "- d’une valeur acquise.",
+              "Déterminer graphiquement ou par le calcul :",
+              "- un taux annuel de placement ;",
+              "- la durée de placement (exprimée en jours, quinzaines, mois ou années) ;",
+              "- le montant du capital placé."
+            ],
+            "knowledge_exact": [
+              "Pourcentages.",
+              "Coefficients multiplicateurs.",
+              "Capital, taux, intérêt, valeur acquise."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Calculer le montant d’un intérêt simple.",
+              "Calculer le montant net à payer après une remise pour une facture."
+            ],
+            "comments_exact": [
+              "Si une situation contextualisée utilise un vocabulaire dédié ou une formule spécifique, ce vocabulaire sera explicité et les différents éléments permettant les calculs seront donnés.",
+              "Retrouver le montant du capital placé à partir de la valeur acquise, du taux annuel et de la durée de placement n’est pas un attendu de certification."
+            ],
+            "complements_exact": [
+              "Grandeurs proportionnelles : les partages proportionnels peuvent être traités s’ils sont en liaison directe avec l’enseignement professionnel et s’ils lui sont utiles."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Renforcer la maîtrise des pourcentages utilisés dans les organisations.",
+              "Travailler sur des documents professionnels : facture, bon de commande, devis, bulletin de paye, document financier.",
+              "Calculer un intérêt simple et une valeur acquise.",
+              "Déterminer un taux annuel de placement, une durée de placement ou le montant du capital placé.",
+              "Expliciter le vocabulaire dédié et donner les éléments permettant les calculs lorsque la situation contextualisée utilise une formule spécifique."
+            ],
+            "digital_tools_role": [
+              "Ce module se prête à des séances de co-intervention, par exemple lors de l’utilisation de logiciels métiers."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "programme_cap",
+              "type": "official_condition",
+              "content": "Le domaine Calculs commerciaux et financiers ne concerne que les CAP du groupement 2 constitué des CAP des secteurs professionnels suivants : Tertiaires-Services, Hôtellerie, Alimentation-Restauration."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "autres_domaines_cap",
+              "content": [
+                "Pourcentages.",
+                "Coefficients multiplicateurs.",
+                "Proportionnalité.",
+                "Lecture et exploitation de documents professionnels simples."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire identifier la nature du document professionnel utilisé : facture, bon de commande, devis, bulletin de paye, document financier.",
+              "Faire expliciter les grandeurs à calculer : prix, coût, marge, taxe, réduction commerciale, taux.",
+              "Faire distinguer remise, rabais et ristourne quand ces termes apparaissent dans la situation.",
+              "Faire relier pourcentage et coefficient multiplicateur.",
+              "Faire calculer le montant d’un intérêt simple et d’une valeur acquise.",
+              "Faire déterminer graphiquement ou par le calcul un taux annuel de placement, une durée de placement ou le montant du capital placé.",
+              "Lorsque la situation contextualisée utilise un vocabulaire dédié ou une formule spécifique, faire expliciter ce vocabulaire et fournir les éléments permettant les calculs.",
+              "Traiter les partages proportionnels seulement s’ils sont en liaison directe avec l’enseignement professionnel et s’ils lui sont utiles."
+            ],
+            "discouraged_methods": [
+              "Rester dans des exercices abstraits sans support documentaire ou sans lien professionnel.",
+              "Supposer connu un vocabulaire professionnel ou une formule spécifique sans l’expliciter.",
+              "Traiter les partages proportionnels hors contexte professionnel utile."
+            ],
+            "forbidden_methods": [
+              "Présenter comme attendu de certification le fait de retrouver le montant du capital placé à partir de la valeur acquise, du taux annuel et de la durée de placement.",
+              "Exiger des informations non fournies dans une situation contextualisée utilisant une formule spécifique.",
+              "Sortir du cadre du groupement 2."
+            ],
+            "common_pitfalls": [
+              "Confondre pourcentage et coefficient multiplicateur.",
+              "Confondre prix, coût et marge.",
+              "Confondre taxe et réduction commerciale.",
+              "Mal interpréter les termes remise, rabais et ristourne.",
+              "Chercher à retrouver le capital placé dans un cas non attendu à la certification.",
+              "Ne pas identifier l’unité de durée de placement : jours, quinzaines, mois ou années."
+            ],
+            "diagnostic_prompts": [
+              "Quel est le document professionnel étudié ?",
+              "Quelle grandeur dois-tu déterminer : prix, coût, marge, taxe, réduction commerciale ou taux ?",
+              "Quel pourcentage ou quel coefficient multiplicateur utilises-tu ?",
+              "Parle-t-on d’intérêt simple ou de valeur acquise ?",
+              "Quelle est l’unité de durée de placement : jours, quinzaines, mois ou années ?",
+              "Le calcul demandé relève-t-il bien des attendus de certification ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "2": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "geometrie",
+      "domain_label": "Géométrie",
+      "specific_condition": "uniquement pour les CAP du groupement 1",
+      "domain_overview": {
+        "description_exact": [
+          "Ce domaine vise à mobiliser les configurations du plan et les connaissances sur les solides de l’espace déjà étudiés au collège dans le but de résoudre des problèmes, de développer la vision dans l’espace et de réactiver les propriétés de géométrie plane.",
+          "L’utilisation des théorèmes de géométrie et des formules de calcul de longueurs, d’aires et de volumes permet de remobiliser les connaissances sur les quotients, les racines carrées, les valeurs exactes, les valeurs arrondies en situation.",
+          "La géométrie développe des capacités de représentation et il importe de s’appuyer sur des figures réalisées selon des modalités diverses (tracé à main levée ou avec des instruments, figure codée, utilisation de logiciels).",
+          "Dans le cadre de la résolution de problèmes, l’utilisation d’un logiciel de géométrie dynamique permet de réaliser des constructions, d’observer ou de conjecturer des propriétés, de visualiser des résultats, dans le plan ou dans l’espace et facilite la prise d’initiative et l’autonomie de l’élève.",
+          "Aucun formalisme rédactionnel n’est attendu des élèves."
+        ],
+        "main_objectives_exact": [
+          "mobiliser les configurations du plan et les connaissances sur les solides de l’espace déjà étudiés au collège ;",
+          "résoudre des problèmes ;",
+          "développer la vision dans l’espace ;",
+          "réactiver les propriétés de géométrie plane."
+        ],
+        "digital_tools_exact": [
+          "Dans le cadre de la résolution de problèmes, l’utilisation d’un logiciel de géométrie dynamique permet de réaliser des constructions, d’observer ou de conjecturer des propriétés, de visualiser des résultats, dans le plan ou dans l’espace et facilite la prise d’initiative et l’autonomie de l’élève."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "geometrie_cap_groupement_1",
+          "label": "Géométrie",
+          "groupements": [
+            "1"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Ce domaine vise à mobiliser les configurations du plan et les connaissances sur les solides de l’espace déjà étudiés au collège dans le but de résoudre des problèmes, de développer la vision dans l’espace et de réactiver les propriétés de géométrie plane.",
+              "L’utilisation des théorèmes de géométrie et des formules de calcul de longueurs, d’aires et de volumes permet de remobiliser les connaissances sur les quotients, les racines carrées, les valeurs exactes, les valeurs arrondies en situation.",
+              "La géométrie développe des capacités de représentation et il importe de s’appuyer sur des figures réalisées selon des modalités diverses (tracé à main levée ou avec des instruments, figure codée, utilisation de logiciels).",
+              "Dans le cadre de la résolution de problèmes, l’utilisation d’un logiciel de géométrie dynamique permet de réaliser des constructions, d’observer ou de conjecturer des propriétés, de visualiser des résultats, dans le plan ou dans l’espace et facilite la prise d’initiative et l’autonomie de l’élève.",
+              "Aucun formalisme rédactionnel n’est attendu des élèves."
+            ],
+            "capacities_exact": [
+              "Tracer aux instruments la première fois, puis à l’aide de l’outil numérique :",
+              "- un segment de même longueur qu’un segment donné ;",
+              "- la médiatrice d’un segment* ;",
+              "- une parallèle, une perpendiculaire à une droite, passant par un point* ;",
+              "- un angle de mesure donnée*.",
+              "Identifier dans une figure codée que deux droites sont perpendiculaires ou parallèles*.",
+              "Mesurer la longueur d’un segment à l’aide d’un instrument approprié (règle graduée…)*.",
+              "Tracer et mesurer un angle à l’aide d’un rapporteur.",
+              "Tracer aux instruments la première fois, puis à l’aide de l’outil numérique des figures planes usuelles.",
+              "Reconnaître, nommer une figure plane usuelle*.",
+              "Identifier les figures usuelles constituant une figure donnée.",
+              "Construire aux instruments la première fois, puis à l’aide de l’outil numérique, l’image d’une figure simple dans le plan par symétrie centrale ou axiale.",
+              "Identifier, dans une figure donnée, une droite comme axe de symétrie, un point comme centre de symétrie.",
+              "Reconnaître, nommer un solide usuel*.",
+              "Nommer les solides usuels constituant d'autres solides.",
+              "Utiliser les théorèmes et les formules pour :",
+              "- calculer le périmètre d’un triangle, d’un carré, d’un rectangle, d’un cercle ;",
+              "- calculer l’aire d’un triangle, d’un carré, d’un rectangle, d’un disque, d’un parallélogramme ;",
+              "- calculer le volume d’un cube, d’un pavé droit, d’un cylindre droit, d’une boule ;",
+              "- calculer la mesure, en degré, d’un angle d’un triangle, connaissant les mesures des deux autres angles ;",
+              "- calculer la longueur d’un segment.",
+              "Convertir des unités de longueur, d’aire et de volume*."
+            ],
+            "knowledge_exact": [
+              "Segment, droite, angle.",
+              "Unités de mesure (longueurs, angles).",
+              "Figures planes usuelles : triangle isocèle, triangle équilatéral, triangle rectangle, rectangle, losange, parallélogramme, carré, cercle.",
+              "Propriétés caractéristiques des quadrilatères portant sur les diagonales ou sur les côtés.",
+              "Symétrie centrale, axiale : définition, propriété de conservation des longueurs, des angles géométriques.",
+              "Superposition d’une figure et de son image par symétrie axiale par pliage selon l’axe de symétrie.",
+              "Solides usuels : le cube, le pavé droit, la pyramide, le cylindre droit, le cône, la boule.",
+              "Formule du périmètre d’un carré, d’un rectangle, d’un cercle.",
+              "Formule de l’aire d’un triangle, d’un carré, d'un rectangle, d’un disque.",
+              "Formule du volume d’un cube, d’un parallélépipède rectangle, d’un cylindre droit, d’une boule.",
+              "Somme des mesures, en degré, des angles d’un triangle.",
+              "Le théorème de Pythagore et sa réciproque.",
+              "Le théorème de Thalès dans le triangle."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Tracer un carré connaissant la longueur de son côté.",
+              "Tracer un rectangle de longueur et de largeur données.",
+              "Construire une figure composée de plusieurs triangles ou rectangles.",
+              "Calculer le volume d’un cylindre connaissant son diamètre et sa hauteur.",
+              "Calculer le volume d’une boule connaissant son diamètre.",
+              "Formaliser par un organigramme la réciproque du théorème de Pythagore."
+            ],
+            "comments_exact": [
+              "Aucun formalisme rédactionnel n’est attendu des élèves."
+            ],
+            "bivalence_exact": [
+              "Les constructions géométriques et les mesures de longueurs et d’angles sont mises en œuvre dans les domaines Mécanique et Optique du programme de physique-chimie."
+            ],
+            "complements_exact": [
+              "Trigonométrie dans le triangle rectangle",
+              "Donner la valeur exacte ou une valeur arrondie du cosinus, du sinus ou de la tangente d’un angle donné en degré.",
+              "Donner, à partir du cosinus, du sinus ou de la tangente d’un angle, la mesure en degré, exacte ou arrondie, de cet angle.",
+              "Déterminer dans un triangle rectangle la mesure en degré d’un angle.",
+              "Déterminer dans un triangle rectangle la longueur d’un côté."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Mobiliser les configurations du plan et les connaissances sur les solides de l’espace déjà étudiés au collège.",
+              "Développer la vision dans l’espace et réactiver les propriétés de géométrie plane.",
+              "S’appuyer sur des figures réalisées selon des modalités diverses.",
+              "Aucun formalisme rédactionnel n’est attendu des élèves.",
+              "Utiliser les théorèmes et formules pour longueurs, aires et volumes en situation."
+            ],
+            "digital_tools_role": [
+              "Tracer et construire à l’aide de l’outil numérique après une première approche aux instruments.",
+              "Utiliser un logiciel de géométrie dynamique pour réaliser des constructions, observer ou conjecturer des propriétés et visualiser des résultats dans le plan ou dans l’espace."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Ce domaine mobilise les configurations du plan et les connaissances sur les solides de l’espace déjà étudiés au collège."
+            },
+            {
+              "from_level": "programme_cap",
+              "type": "official_condition",
+              "content": "Le domaine Géométrie ne concerne que les CAP du groupement 1 constitué des CAP des secteurs professionnels suivants : Productique – Maintenance, Bâtiment – Travaux publics, Électricité – Électronique, Audiovisuel, Industries graphiques, Hygiène – Santé, Chimie et procédés."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Configurations du plan.",
+                "Solides de l’espace.",
+                "Mesures de longueurs et d’angles.",
+                "Périmètres, aires et volumes.",
+                "Théorèmes de Pythagore et de Thalès.",
+                "Symétries."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire tracer aux instruments la première fois, puis à l’aide de l’outil numérique.",
+              "Faire lire et exploiter des figures codées.",
+              "Faire reconnaître et nommer les figures planes et solides usuels.",
+              "Faire travailler les symétries par construction et par repérage de l’axe ou du centre.",
+              "Faire utiliser les théorèmes et les formules pour des calculs de périmètres, aires, volumes, angles et longueurs.",
+              "Faire convertir des unités de longueur, d’aire et de volume.",
+              "Pour les compléments du programme, traiter la trigonométrie dans le triangle rectangle seulement comme complément."
+            ],
+            "discouraged_methods": [
+              "Introduire un formalisme rédactionnel lourd.",
+              "Rester uniquement sur des figures abstraites sans résolution de problèmes.",
+              "Présenter les compléments comme le cœur obligatoire du domaine."
+            ],
+            "forbidden_methods": [
+              "Exiger un formalisme rédactionnel alors que le programme l’exclut.",
+              "Sortir du cadre du groupement 1.",
+              "Transformer les compléments du programme en attendus certificatifs."
+            ],
+            "common_pitfalls": [
+              "Confondre parallèle et perpendiculaire.",
+              "Mal lire une figure codée.",
+              "Confondre aire et périmètre.",
+              "Confondre volume et aire.",
+              "Oublier les unités dans les conversions.",
+              "Appliquer Pythagore ou Thalès hors d’une configuration adaptée."
+            ],
+            "diagnostic_prompts": [
+              "Quelle construction dois-tu réaliser en premier aux instruments ?",
+              "La figure montre-t-elle des droites parallèles ou perpendiculaires ?",
+              "Quelle figure plane ou quel solide reconnais-tu ?",
+              "Quel théorème ou quelle formule est utile ici ?",
+              "Parles-tu d’une longueur, d’une aire ou d’un volume ?",
+              "Le point demandé relève-t-il du complément trigonométrique ou du cœur du programme ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": []
+          },
+          "automatismes_after_treatment": [
+            "Construction de la médiatrice d’un segment, d’une parallèle, d’une perpendiculaire à une droite passant par un point, d’un angle de mesure donnée.",
+            "Identification dans une figure codée de deux droites perpendiculaires ou parallèles.",
+            "Mesure de la longueur d’un segment à l’aide d’un instrument approprié.",
+            "Identification d’une figure plane usuelle, d’un solide usuel."
+          ]
+        }
+      ]
+    },
+    {
+      "domain_key": "calculs_numeriques",
+      "domain_label": "Calculs numériques",
+      "selection_mode": "transversal",
+      "chapter_selection": true,
+      "description_ui": "Le domaine Calculs numériques est travaillé lors de l’étude des autres domaines de connaissances ou lors du développement de certains automatismes.",
+      "knowledge_modal_enabled": true,
+      "domain_overview": {
+        "description_exact": [
+          "Le domaine Calculs numériques est travaillé lors de l’étude des autres domaines de connaissances ou lors du développement de certains automatismes.",
+          "Les capacités à développer sont présentées dans un tableau."
+        ],
+        "main_objectives_exact": [],
+        "digital_tools_exact": []
+      },
+      "chapters": [
+        {
+          "chapter_key": "calculs_numeriques_cap",
+          "label": "Calculs numériques",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Le domaine Calculs numériques est travaillé lors de l’étude des autres domaines de connaissances ou lors du développement de certains automatismes.",
+              "Les capacités à développer sont présentées dans un tableau."
+            ],
+            "capacities_exact": [
+              "Effectuer soit mentalement, soit « à la main », soit à la calculatrice un calcul isolé sur des nombres en écriture décimale faisant intervenir l’une au moins des opérations : addition/soustraction/multiplication/division à 10^-n près.",
+              "Déterminer rapidement un ordre de grandeur.",
+              "Convertir une mesure exprimée dans le système décimal en une mesure exprimée dans le système sexagésimal, et réciproquement.",
+              "Ordonner une liste de nombres donnés en écriture décimale.",
+              "Calculer le carré, le cube d’un nombre donné en écriture décimale.",
+              "Utiliser la notation scientifique pour obtenir un ordre de grandeur.",
+              "Déterminer la valeur arrondie à 10^-n d’un nombre donné en écriture décimale.",
+              "Déterminer, en écriture décimale, la valeur exacte ou une valeur arrondie de la racine carrée d’un nombre positif.",
+              "Déterminer, en écriture décimale, la valeur exacte ou une valeur arrondie du nombre b/a, où a et b sont des nombres donnés en écriture décimale, b étant non nul.",
+              "Calculer un produit de la forme (a/b) × c, où a, b et c sont des nombres donnés en écriture décimale, b étant non nul.",
+              "Utiliser l’égalité : a/b = (ca)/(cb), où a, b et c sont des nombres donnés en écriture décimale, b et c étant non nuls.",
+              "Utiliser l’équivalence : a/c = b/d équivaut à ad = bc, où a, b, c et d sont des nombres donnés en écriture décimale, c et d étant non nuls.",
+              "Comparer, additionner, soustraire, multiplier et diviser des nombres donnés en écriture fractionnaire dans des situations simples.",
+              "Calculer la valeur numérique exacte ou une valeur arrondie d’une expression littérale en donnant aux lettres (variables) des valeurs numériques en écriture décimale."
+            ],
+            "knowledge_exact": [
+              "Capacités de calcul à développer lors de l’étude des différents domaines de connaissances ou lors de l’acquisition de certains automatismes."
+            ],
+            "comments_exact": [
+              "Le domaine Calculs numériques est travaillé lors de l’étude des autres domaines de connaissances ou lors du développement de certains automatismes."
+            ],
+            "table_links_exact": {
+              "statistique_une_variable": true,
+              "probabilites": true,
+              "resolution_probleme_proportionnalite": true,
+              "resolution_probleme_premier_degre": true,
+              "fonctions": true,
+              "calculs_commerciaux": true,
+              "geometrie": true,
+              "automatismes": true
+            }
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Le domaine Calculs numériques est transversal.",
+              "Les capacités de calcul sont développées lors de l’étude des autres domaines de connaissances ou lors de l’acquisition de certains automatismes.",
+              "Les calculs portent sur les écritures décimales, fractionnaires, scientifiques et littérales selon les cas.",
+              "Le tableau relie explicitement ces capacités aux autres domaines du programme."
+            ],
+            "digital_tools_role": [
+              "Selon les tâches, le calcul peut être effectué mentalement, à la main ou à la calculatrice."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "programme_cap",
+              "type": "official_link",
+              "content": "Le domaine Calculs numériques est travaillé lors de l’étude des autres domaines de connaissances ou lors du développement de certains automatismes."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "classes_anterieures",
+              "content": [
+                "Calculs sur nombres en écriture décimale.",
+                "Fractions.",
+                "Ordres de grandeur.",
+                "Arrondis.",
+                "Racines carrées.",
+                "Notation scientifique.",
+                "Premières expressions littérales."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire choisir le mode de calcul adapté : mental, à la main ou à la calculatrice.",
+              "Faire distinguer valeur exacte et valeur arrondie.",
+              "Faire travailler les conversions entre système décimal et système sexagésimal.",
+              "Faire utiliser la notation scientifique pour obtenir un ordre de grandeur.",
+              "Faire manipuler les écritures fractionnaires dans des situations simples.",
+              "Faire calculer la valeur numérique d’une expression littérale en remplaçant les lettres par des valeurs décimales.",
+              "Faire relier chaque capacité de calcul numérique au domaine du programme dans lequel elle est mobilisée."
+            ],
+            "discouraged_methods": [
+              "Isoler complètement les calculs numériques du reste du programme.",
+              "Imposer un seul mode de calcul quand le programme autorise calcul mental, calcul à la main ou calculatrice.",
+              "Alourdir avec des techniques hors du cadre des capacités listées."
+            ],
+            "forbidden_methods": [
+              "Présenter Calculs numériques comme un chapitre indépendant sans lien avec les autres domaines.",
+              "Sortir des capacités listées dans le tableau du programme.",
+              "Supprimer la distinction entre valeur exacte, valeur arrondie et ordre de grandeur."
+            ],
+            "common_pitfalls": [
+              "Choisir un mode de calcul inadapté.",
+              "Confondre valeur exacte et valeur arrondie.",
+              "Se tromper dans une conversion décimal / sexagésimal.",
+              "Mal utiliser la notation scientifique.",
+              "Inverser les lettres dans une expression littérale ou dans une fraction.",
+              "Oublier la condition de non-nullité dans les écritures fractionnaires."
+            ],
+            "diagnostic_prompts": [
+              "Dois-tu calculer mentalement, à la main ou à la calculatrice ?",
+              "Cherche-t-on une valeur exacte, une valeur arrondie ou un ordre de grandeur ?",
+              "La mesure est-elle exprimée dans le système décimal ou sexagésimal ?",
+              "Peux-tu écrire ce nombre en notation scientifique ?",
+              "Dans cette fraction, quel nombre doit être non nul ?",
+              "Quelles valeurs numériques donnes-tu aux lettres de l’expression littérale ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "algorithmique_programmation",
+      "label": "Algorithmique et programmation",
+      "groupements": [
+        "1",
+        "2"
+      ],
+      "selection_mode": "transversal",
+      "chapter_selection": true,
+      "description_ui": "Ce module est transversal et travaillé dans les différents domaines du programme.",
+      "knowledge_modal_enabled": true,
+      "domain_overview": {
+        "description_exact": [
+          "Les élèves poursuivent leur initiation à la programmation, en réalisant quelques programmes simples, sans viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier.",
+          "Dans la continuité de l’enseignement d’informatique proposé au collège, un langage de programmation visuel est utilisé.",
+          "L’algorithmique et la programmation sont propices à la mise en œuvre d’une démarche de projet ; par exemple, en décomposant un problème en sous-problèmes confiés à des groupes d’élèves qui collaborent entre eux.",
+          "En créant ou en modifiant un programme, les élèves développent des démarches, consolident les notions de variables, de séquences d’instructions, de boucles et d’instructions conditionnelles et s’entraînent au raisonnement.",
+          "L’algorithmique trouve naturellement sa place dans tous les domaines du programme.",
+          "Les problèmes traités en algorithmique et programmation peuvent également s’appuyer sur les autres disciplines (la physique-chimie, les enseignements professionnels…) ou sur des situations de la vie courante."
+        ],
+        "main_objectives_exact": [
+          "poursuivre l’initiation à la programmation ;",
+          "réaliser quelques programmes simples ;",
+          "mettre en œuvre une démarche de projet ;",
+          "consolider les notions de variable, de séquences d’instructions, de boucles et d’instructions conditionnelles ;",
+          "entraîner les élèves au raisonnement."
+        ],
+        "digital_tools_exact": [
+          "Dans la continuité de l’enseignement d’informatique proposé au collège, un langage de programmation visuel est utilisé."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "algorithmique_programmation_cap",
+          "label": "Algorithmique et programmation",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Les élèves poursuivent leur initiation à la programmation, en réalisant quelques programmes simples, sans viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier.",
+              "Dans la continuité de l’enseignement d’informatique proposé au collège, un langage de programmation visuel est utilisé.",
+              "L’algorithmique et la programmation sont propices à la mise en œuvre d’une démarche de projet ; par exemple, en décomposant un problème en sous-problèmes confiés à des groupes d’élèves qui collaborent entre eux.",
+              "En créant ou en modifiant un programme, les élèves développent des démarches, consolident les notions de variables, de séquences d’instructions, de boucles et d’instructions conditionnelles et s’entraînent au raisonnement.",
+              "L’algorithmique trouve naturellement sa place dans tous les domaines du programme.",
+              "Les problèmes traités en algorithmique et programmation peuvent également s’appuyer sur les autres disciplines (la physique-chimie, les enseignements professionnels…) ou sur des situations de la vie courante."
+            ],
+            "capacities_exact": [
+              "Décomposer un problème en sous-problèmes.",
+              "Écrire une séquence d’instructions.",
+              "Écrire, mettre au point (tester et corriger) et exécuter un programme en réponse à un problème donné."
+            ],
+            "knowledge_exact": [
+              "Notion de variable.",
+              "Principe d’entrée-sortie d’un programme.",
+              "Instructions conditionnelles, boucles."
+            ],
+            "comments_exact": []
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Poursuivre l’initiation à la programmation sans viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier.",
+              "Utiliser un langage de programmation visuel dans la continuité du collège.",
+              "Décomposer un problème en sous-problèmes dans une démarche de projet.",
+              "Créer ou modifier un programme pour consolider variables, séquences d’instructions, boucles et instructions conditionnelles.",
+              "Faire vivre l’algorithmique dans tous les domaines du programme."
+            ],
+            "digital_tools_role": [
+              "Utiliser un langage de programmation visuel.",
+              "Écrire, tester, corriger et exécuter un programme."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "college",
+              "type": "program_continuity",
+              "content": "Dans la continuité de l’enseignement d’informatique proposé au collège, un langage de programmation visuel est utilisé."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "college",
+              "content": [
+                "Première initiation à la programmation.",
+                "Repérage de séquences d’instructions.",
+                "Premiers usages de variables, de boucles et de conditions."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire décomposer un problème en sous-problèmes.",
+              "Faire écrire une séquence d’instructions.",
+              "Faire écrire, tester, corriger et exécuter un programme.",
+              "Faire utiliser un langage de programmation visuel.",
+              "Faire relier le programme au problème traité dans un autre domaine du programme, dans une autre discipline ou dans une situation de la vie courante."
+            ],
+            "discouraged_methods": [
+              "Viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier.",
+              "Sortir d’une logique de programmes simples.",
+              "Couper l’algorithmique du reste du programme."
+            ],
+            "forbidden_methods": [
+              "Remplacer le langage de programmation visuel par un autre langage comme exigence du module.",
+              "Présenter le module comme un cours isolé sans lien avec les problèmes du programme.",
+              "Donner un programme complet sans faire travailler la logique, le test et la correction."
+            ],
+            "common_pitfalls": [
+              "Ne pas décomposer le problème.",
+              "Confondre variable et valeur.",
+              "Oublier le principe d’entrée-sortie.",
+              "Mal utiliser les instructions conditionnelles ou les boucles.",
+              "Corriger le programme sans vérifier le lien avec le problème posé."
+            ],
+            "diagnostic_prompts": [
+              "Quel problème dois-tu résoudre ?",
+              "En quels sous-problèmes peux-tu le découper ?",
+              "Quelle séquence d’instructions proposes-tu ?",
+              "Quelle variable utilises-tu ?",
+              "Que doit faire le programme en entrée et en sortie ?",
+              "Le programme fonctionne-t-il après test et correction ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "automatismes",
+      "label": "Automatismes",
+      "groupements": [
+        "1",
+        "2"
+      ],
+      "selection_mode": "transversal",
+      "chapter_selection": true,
+      "description_ui": "Cette partie du programme est transversale et travaillée régulièrement sous forme d’entraînement.",
+      "knowledge_modal_enabled": true,
+      "domain_overview": {
+        "description_exact": [
+          "Cette partie du programme vise à construire et entretenir des aptitudes dans les domaines du calcul, des grandeurs et mesures et de la géométrie.",
+          "Il s’agit d’automatiser des procédures, des méthodes et des stratégies dont la bonne maîtrise favorise grandement la réussite scolaire en mathématiques comme dans les autres enseignements et constitue un réel atout dans la vie sociale.",
+          "Plus les élèves gagnent en aisance dans ces automatismes, plus ils sont mis en confiance et en réussite dans l’apprentissage des mathématiques.",
+          "Ce faisant, on développe également leur esprit critique grâce à une meilleure maîtrise des nombres, des graphiques et du calcul.",
+          "Les capacités attendues énoncées ci-dessous n’ont pas vocation à faire l’objet d’un chapitre d’enseignement spécifique car les notions qui les sous-tendent ont été travaillées dans les classes antérieures.",
+          "Elles relèvent d’un entraînement régulier sur l’ensemble de l’année, par exemple lors de rituels de début de séance, sous forme de « questions flash » privilégiant l'activité mentale.",
+          "Les modalités de mise en œuvre doivent être variées et prendre appui sur différents supports : à l’oral, à l’écrit, individuellement ou en groupe, utilisant des outils numériques de vidéoprojection, de recensement instantané des réponses…"
+        ],
+        "main_objectives_exact": [
+          "construire et entretenir des aptitudes dans les domaines du calcul, des grandeurs et mesures et de la géométrie ;",
+          "automatiser des procédures, des méthodes et des stratégies ;",
+          "mettre les élèves en confiance et en réussite dans l’apprentissage des mathématiques ;",
+          "développer l’esprit critique grâce à une meilleure maîtrise des nombres, des graphiques et du calcul."
+        ],
+        "digital_tools_exact": [
+          "Les modalités de mise en œuvre peuvent utiliser des outils numériques de vidéoprojection, de recensement instantané des réponses."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "automatismes_cap",
+          "label": "Automatismes",
+          "groupements": [
+            "1",
+            "2"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Cette partie du programme vise à construire et entretenir des aptitudes dans les domaines du calcul, des grandeurs et mesures et de la géométrie.",
+              "Il s’agit d’automatiser des procédures, des méthodes et des stratégies dont la bonne maîtrise favorise grandement la réussite scolaire en mathématiques comme dans les autres enseignements et constitue un réel atout dans la vie sociale.",
+              "Plus les élèves gagnent en aisance dans ces automatismes, plus ils sont mis en confiance et en réussite dans l’apprentissage des mathématiques.",
+              "Ce faisant, on développe également leur esprit critique grâce à une meilleure maîtrise des nombres, des graphiques et du calcul."
+            ],
+            "capacities_exact": [
+              "Multiplication d’un nombre par 10, par 100, par 0,1 ou par 0,01.",
+              "Calcul mental d’additions ou de multiplications simples.",
+              "Règles des signes pour les produits ou les quotients d’entiers relatifs.",
+              "Addition de fractions simples, multiplication de fractions.",
+              "Calcul ou application d’une proportion sous différentes formes (décimale, fractionnaire, pourcentage).",
+              "Passage d’une écriture fractionnaire à une écriture décimale.",
+              "Comparaison de nombres donnés en écriture décimale.",
+              "Comparaison de nombres rationnels donnés en écriture fractionnaire ou scientifique ;",
+              "Transformation de formules.",
+              "Procédures de résolution d’équations du type ax = b ou a + x = b.",
+              "Détermination d’une valeur arrondie.",
+              "Conversion d’une durée exprimée en heures et minutes dans le système décimal et réciproquement."
+            ],
+            "knowledge_exact": [
+              "Automatismes dans les domaines du calcul, des grandeurs et mesures et de la géométrie."
+            ],
+            "comments_exact": [
+              "Les capacités attendues énoncées ci-dessous n’ont pas vocation à faire l’objet d’un chapitre d’enseignement spécifique car les notions qui les sous-tendent ont été travaillées dans les classes antérieures.",
+              "Elles relèvent d’un entraînement régulier sur l’ensemble de l’année, par exemple lors de rituels de début de séance, sous forme de « questions flash » privilégiant l'activité mentale.",
+              "Les modalités de mise en œuvre doivent être variées et prendre appui sur différents supports : à l’oral, à l’écrit, individuellement ou en groupe, utilisant des outils numériques de vidéoprojection, de recensement instantané des réponses…"
+            ],
+            "specific_lists_exact": {
+              "pour_tous_les_cap": [
+                "Multiplication d’un nombre par 10, par 100, par 0,1 ou par 0,01.",
+                "Calcul mental d’additions ou de multiplications simples.",
+                "Règles des signes pour les produits ou les quotients d’entiers relatifs.",
+                "Addition de fractions simples, multiplication de fractions.",
+                "Calcul ou application d’une proportion sous différentes formes (décimale, fractionnaire, pourcentage).",
+                "Passage d’une écriture fractionnaire à une écriture décimale.",
+                "Comparaison de nombres donnés en écriture décimale.",
+                "Comparaison de nombres rationnels donnés en écriture fractionnaire ou scientifique ;",
+                "Transformation de formules.",
+                "Procédures de résolution d’équations du type ax = b ou a + x = b.",
+                "Détermination d’une valeur arrondie.",
+                "Conversion d’une durée exprimée en heures et minutes dans le système décimal et réciproquement."
+              ],
+              "uniquement_groupement_1": [
+                "Carré d’un nombre entier inférieur ou égal à 10, racine carrée d’un carré parfait d’un nombre entier inférieur ou égal à 100.",
+                "Conversion des unités de longueurs, d’aires et de volumes.",
+                "Mesure de la distance d’un point à une droite.",
+                "Mesure de la distance entre deux droites parallèles."
+              ],
+              "automatismes_apres_capacites_asterisque": {
+                "pour_tous_les_cap": [
+                  "Calcul d’un effectif total, calcul de fréquences, mentalement dans quelques cas simples.",
+                  "Calcul de la moyenne d’une série statistique, mentalement dans quelques cas simples.",
+                  "Calcul d’une quatrième proportionnelle.",
+                  "Détermination d’un coefficient de proportionnalité d’un tableau comportant deux suites de nombres proportionnelles.",
+                  "Calcul d’une des valeurs connaissant les deux autres parmi : pourcentage ou échelle, valeur initiale, valeur finale.",
+                  "Résolution algébrique d’une équation se ramenant à une équation du type ax + b = c, où x est l’inconnue (a, b et c étant des nombres réels, a étant non nul).",
+                  "Placement d’un point connaissant ses coordonnées cartésiennes dans un plan muni d’un repère orthogonal.",
+                  "À partir de la représentation graphique d’une fonction ƒ, sur un intervalle [a ; b] donné, lecture :",
+                  "- de l’image d’un nombre réel par ƒ ;",
+                  "- des antécédents éventuels d’un nombre réel par ƒ ;",
+                  "- des variations de ƒ avec un vocabulaire adapté."
+                ],
+                "uniquement_groupement_1": [
+                  "Construction de la médiatrice d’un segment, d’une parallèle, d’une perpendiculaire à une droite passant par un point, d’un angle de mesure donnée.",
+                  "Identification dans une figure codée de deux droites perpendiculaires ou parallèles.",
+                  "Mesure de la longueur d’un segment à l’aide d’un instrument approprié.",
+                  "Identification d’une figure plane usuelle, d’un solide usuel."
+                ]
+              }
+            }
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Construire et entretenir des automatismes dans les domaines du calcul, des grandeurs et mesures et de la géométrie.",
+              "Ne pas faire de chapitre spécifique.",
+              "Mettre en place un entraînement régulier sur l’ensemble de l’année.",
+              "Utiliser des rituels de début de séance et des « questions flash » privilégiant l'activité mentale.",
+              "Varier les supports et les modalités de mise en œuvre."
+            ],
+            "digital_tools_role": [
+              "Utiliser au besoin des outils numériques de vidéoprojection et de recensement instantané des réponses."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "classes_anterieures",
+              "type": "program_continuity",
+              "content": "Les notions qui sous-tendent ces automatismes ont été travaillées dans les classes antérieures."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "classes_anterieures",
+              "content": [
+                "Calculs usuels.",
+                "Grandeurs et mesures.",
+                "Premières procédures de résolution.",
+                "Premières lectures graphiques.",
+                "Premières connaissances géométriques."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire travailler les automatismes par entraînement régulier sur l’ensemble de l’année.",
+              "Faire utiliser des rituels de début de séance.",
+              "Faire poser des « questions flash » privilégiant l'activité mentale.",
+              "Faire varier les supports : oral, écrit, individuel, groupe.",
+              "Faire varier les modalités avec ou sans outils numériques.",
+              "Pour le groupement 1, intégrer les automatismes spécifiques de géométrie et de mesure."
+            ],
+            "discouraged_methods": [
+              "Faire un chapitre spécifique d’automatismes.",
+              "Rendre les entraînements monotones ou toujours identiques.",
+              "Couper les automatismes des autres domaines du programme."
+            ],
+            "forbidden_methods": [
+              "Présenter les automatismes comme un domaine isolé d’enseignement spécifique.",
+              "Omettre la distinction entre automatismes pour tous les CAP et automatismes spécifiques au groupement 1.",
+              "Ignorer les automatismes issus des capacités marquées d’un astérisque."
+            ],
+            "common_pitfalls": [
+              "Manque de régularité dans l’entraînement.",
+              "Confusion entre les automatismes communs et ceux du groupement 1.",
+              "Erreurs de calcul mental ou d’arrondis.",
+              "Difficultés de conversion d’unités et de durées.",
+              "Lecture trop lente ou imprécise de graphiques et de figures."
+            ],
+            "diagnostic_prompts": [
+              "Quel automatisme simple peux-tu mobiliser ici ?",
+              "S’agit-il d’un automatisme commun à tous les CAP ou spécifique au groupement 1 ?",
+              "Peux-tu répondre mentalement ou avec une procédure très courte ?",
+              "Reconnais-tu ici un automatisme issu d’une capacité marquée d’un astérisque ?",
+              "Quel support te permet de t’entraîner : oral, écrit, individuel ou groupe ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "1": [],
+            "2": []
+          }
+        }
+      ]
+    }
+  ]
+}

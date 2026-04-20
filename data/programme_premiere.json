@@ -1,0 +1,1749 @@
+{
+  "level": "premiere",
+  "label": "Première Bac Professionnel",
+  "domains": [
+    {
+      "domain_key": "statistique_probabilites",
+      "domain_label": "Statistique et probabilités",
+      "chapters": [
+        {
+          "chapter_key": "statistique_deux_variables",
+          "label": "Statistique à deux variables quantitatives",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de déterminer, à l’aide d’outils numériques, une équation d’une droite d’ajustement d’un nuage de points associé à une série statistique à deux variables quantitatives et de l’utiliser pour interpoler ou extrapoler des valeurs inconnues.",
+              "L’élève est amené à évaluer la pertinence d’un ajustement affine à l’aide du coefficient de détermination et à développer une réflexion critique sur le lien entre deux phénomènes articulés pour distinguer corrélation et causalité."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont consolidé les notions d’effectif et de fréquence.",
+              "Ils ont étudié différents paramètres de dispersion et ont découvert des représentations et indicateurs permettant de comparer des séries statistiques.",
+              "En classe de première, ils consolident ces notions et étudient les ajustements affines qui permettent de réinvestir les notions de fonction affine et d’équation de droite étudiées en classe de seconde."
+            ],
+            "capacities_exact": [
+              "Représenter graphiquement à l’aide d’outils numériques un nuage de points associé à une série statistique à deux variables quantitatives.",
+              "Réaliser un ajustement affine, à l’aide des outils numériques.",
+              "Déterminer l’équation réduite d’une droite d’ajustement par la méthode des moindres carrés, à l’aide d’outils numériques.",
+              "Interpoler ou extrapoler des valeurs inconnues.",
+              "Déterminer le coefficient de détermination d’une série statistique à deux variables quantitatives à l’aide d’outils numériques.",
+              "Évaluer la pertinence d’un ajustement affine."
+            ],
+            "knowledge_exact": [
+              "Nuage de points associé à une série statistique à deux variables quantitatives.",
+              "Ajustement affine par la méthode des moindres carrés.",
+              "Coefficient de détermination R²."
+            ],
+            "comments_exact": [
+              "On indique aux élèves l’ajustement à réaliser.",
+              "Aucune théorie n’est attendue sur ces coefficients.",
+              "Un coefficient de détermination proche de 1 signifie qu’il existe une forte corrélation entre les deux variables.",
+              "Cela ne signifie pas nécessairement qu’il y a une relation de causalité entre les deux variables."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Distinguer corrélation et causalité.",
+              "Utiliser les outils numériques pour réaliser les ajustements.",
+              "Faire le lien avec la fonction affine."
+            ],
+            "digital_tools_role": [
+              "Utilisation d’outils numériques pour déterminer l’équation de la droite d’ajustement et le coefficient de détermination."
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Ne jamais utiliser la notion de nombre moyen.",
+              "Ne jamais parler de moindres carrés à l’oral.",
+              "Le coefficient de détermination R² est toujours obtenu à l’aide d’outils numériques.",
+              "Toujours faire le lien avec la fonction affine.",
+              "Faire identifier clairement le coefficient directeur et l’ordonnée à l’origine.",
+              "Faire verbaliser qui est a et qui est b dans une fonction affine.",
+              "Insister sur le fait qu’il peut ne pas y avoir de relation entre les variables.",
+              "Utiliser des exemples concrets pour montrer l’absence de corrélation.",
+              "Faire verbaliser la différence entre corrélation et causalité."
+            ]
+          }
+        },
+        {
+          "chapter_key": "probabilites",
+          "label": "Probabilités",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est d’aborder la modélisation probabiliste dans le cas d’un univers fini en mobilisant un vocabulaire ensembliste.",
+              "L’organisation de données, sous forme de tableaux croisés d’effectifs ou de fréquences, et leur exploitation permettent d’interpréter diverses situations concrètes et de calculer des probabilités."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont fait le lien entre fréquences et probabilités.",
+              "Ils ont constaté le phénomène de stabilisation des fréquences et découvert les arbres de dénombrement."
+            ],
+            "capacities_exact": [
+              "Calculer des probabilités dans un univers fini.",
+              "Utiliser des tableaux croisés d’effectifs ou de fréquences.",
+              "Interpréter des situations probabilistes concrètes."
+            ],
+            "knowledge_exact": [
+              "Probabilité conditionnelle.",
+              "Notation P_A(B)."
+            ]
+          },
+          "aria_guidance": {
+            "allowed_methods": [
+              "Utiliser une écriture mathématique rigoureuse en LaTeX.",
+              "Faire verbaliser la signification de chaque notation.",
+              "Faire écrire systématiquement P_A(B)."
+            ],
+            "forbidden_methods": [
+              "Utiliser P(A/B).",
+              "Utiliser P(A|B).",
+              "Utiliser des notations simplifiées de type informatique.",
+              "Utiliser des puissances avec ^."
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Insister fortement sur la notion de probabilité conditionnelle.",
+              "Utiliser uniquement l’écriture mathématique correcte P_A(B) = P(A ∩ B) / P(A).",
+              "Faire écrire le A en indice systématiquement.",
+              "Faire verbaliser le sens de P_A(B) : probabilité de B sachant A.",
+              "Refuser toute notation incorrecte dès le départ pour installer la rigueur."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "algebre_analyse",
+      "domain_label": "Algèbre – Analyse",
+      "domain_overview": {
+        "description_exact": [
+          "Ce domaine permet de poursuivre la formation des élèves à la résolution de problèmes, tout en confortant l’acquisition de méthodes déjà étudiées (fonctions et problèmes du premier degré, fonction carré) et en introduisant de nouvelles notions (polynômes de degré 2, suites, dérivées).",
+          "Ces notions sont présentées à partir de contextes familiers aux élèves, issus de la vie courante, du domaine professionnel ou en lien avec la physique-chimie. Les situations choisies permettent de traiter des problématiques liées autant que possible aux grands enjeux de société (sociétaux ou environnementaux)."
+        ],
+        "main_objectives_exact": [
+          "modéliser une situation à l’aide de suites numériques dans le cas d’un phénomène discret ou à l’aide de fonctions dans le cas d’un phénomène continu ;",
+          "découvrir et étudier de nouvelles fonctions ;",
+          "découvrir la dérivation, étudier les variations de fonctions ;",
+          "résoudre des problèmes en choisissant une méthode adaptée."
+        ],
+        "digital_tools_exact": [
+          "L’utilisation de tableurs et de logiciels de géométrie dynamique facilite l’introduction des nouvelles notions abordées dans les différents modules."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "suites_numeriques",
+          "label": "Suites numériques",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de résoudre des problèmes concernant des phénomènes discrets modélisés par une suite numérique, plus particulièrement par une suite arithmétique."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont été confrontés à des exemples de fonctions définies sur ℕ pour modéliser des phénomènes discrets. En classe de première, ils génèrent les termes de différentes suites puis découvrent et étudient les suites arithmétiques."
+            ],
+            "capacities_exact": [
+              "Générer par le calcul ou à l’aide d’un outil numérique, les termes de différentes suites.",
+              "Étudier le sens de variation d’une suite donnée par uₙ = ƒ(n) dans des cas simples.",
+              "Calculer un terme de rang donné d’une suite arithmétique définie par son premier terme et par une relation de récurrence ou par l’expression du terme de rang n.",
+              "Réaliser et exploiter une représentation graphique du nuage de points (n ; uₙ) dans le cas où (uₙ) est une suite arithmétique.",
+              "Reconnaître les premiers termes d’une suite arithmétique.",
+              "Déterminer le sens de variation d’une suite arithmétique à l’aide de sa raison.",
+              "Calculer la somme des n premiers termes d’une suite arithmétique avec ou sans outils numériques."
+            ],
+            "knowledge_exact": [
+              "Suites numériques (uₙ) :",
+              "notation indicielle du terme de rang n de la suite (uₙ) ;",
+              "uₙ = ƒ(n) où ƒ est une fonction.",
+              "Sens de variation d’une suite numérique.",
+              "Suites arithmétiques :",
+              "définition par la relation uₙ₊₁ = uₙ + r et la donnée du premier terme ;",
+              "expression du terme de rang n en fonction du premier terme et de la raison ;",
+              "lien avec les fonctions affines ;",
+              "sens de variation.",
+              "Somme des n premiers termes d’une suite arithmétique."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Calculer un terme de rang donné d’une suite numérique.",
+              "Calculer la somme d’un nombre fini de termes d’une suite numérique.",
+              "Générer une liste de termes d’une suite numérique et les représenter par un nuage de points de coordonnées (n ; uₙ).",
+              "Déterminer le rang à partir duquel les termes d’une suite numérique monotone sont supérieurs ou inférieurs à une valeur donnée."
+            ],
+            "comments_exact": [
+              "En lien avec l’écriture fonctionnelle, on utilise, lors de l’introduction des suites, la notation u(n) préalablement à celle de uₙ.",
+              "On présente également des suites qui ne sont pas arithmétiques.",
+              "L’étude des suites définies par une relation de récurrence, autres que les suites arithmétiques, n’est pas au programme.",
+              "La connaissance de la formule donnant la somme des n premiers termes d’une suite arithmétique n’est pas exigée.",
+              "La notation ∑ uᵢ de i=1 à n peut être introduite en vue d’une poursuite d’études dans le supérieur."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Résoudre des problèmes concernant des phénomènes discrets modélisés par une suite numérique, plus particulièrement par une suite arithmétique.",
+              "Distinguer suites arithmétiques et suites non arithmétiques.",
+              "Faire le lien entre suites arithmétiques et fonctions affines.",
+              "Déterminer le sens de variation d’une suite arithmétique à l’aide de sa raison."
+            ],
+            "digital_tools_role": [
+              "Utiliser un outil numérique pour générer des termes, représenter un nuage de points et déterminer un rang à partir duquel les termes dépassent ou deviennent inférieurs à une valeur donnée."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En classe de seconde, les élèves ont été confrontés à des exemples de fonctions définies sur ℕ pour modéliser des phénomènes discrets."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Exemples de fonctions définies sur ℕ pour modéliser des phénomènes discrets.",
+                "Lecture fonctionnelle d’une situation.",
+                "Utilisation d’un outil numérique pour générer ou lire des valeurs."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire utiliser la raison pour déterminer le sens de variation d’une suite arithmétique.",
+              "Faire verbaliser qu’une suite arithmétique correspond à une évolution additive.",
+              "Faire utiliser la notation u(n) lors de l’introduction, puis passer à la notation uₙ.",
+              "Faire le lien avec la fonction affine.",
+              "Faire générer des termes avec la calculatrice, un tableur ou un autre outil numérique.",
+              "Faire exploiter le nuage de points (n ; uₙ)."
+            ],
+            "discouraged_methods": [
+              "Entrer dans des démonstrations théoriques longues.",
+              "Donner d’emblée la formule sans faire identifier le premier terme et la raison.",
+              "Passer par une étude formelle de uₙ₊₁ - uₙ pour montrer le sens de variation quand l’objectif est simplement d’exploiter la raison."
+            ],
+            "forbidden_methods": [
+              "Faire une démonstration complète à la place de l’élève.",
+              "Étudier des suites définies par une relation de récurrence autres que les suites arithmétiques comme si elles étaient au programme.",
+              "Exiger la connaissance de la formule de la somme des n premiers termes."
+            ],
+            "common_pitfalls": [
+              "Confondre suite arithmétique et autre suite numérique.",
+              "Ne pas identifier correctement la raison.",
+              "Oublier le lien avec les fonctions affines.",
+              "Confondre notation u(n) et uₙ.",
+              "Chercher à faire une démonstration alors que l’attendu est l’exploitation directe de la raison."
+            ],
+            "diagnostic_prompts": [
+              "Ajoute-t-on toujours la même quantité d’un terme au suivant ?",
+              "Quel est le premier terme ?",
+              "Quelle est la raison ?",
+              "Comment vois-tu que cette suite est arithmétique ?",
+              "À partir de la raison, la suite est-elle croissante, décroissante ou constante ?",
+              "Quel lien peux-tu faire avec une fonction affine ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Aucune démonstration théorique sur les suites.",
+              "Pour montrer qu’une suite arithmétique est croissante ou décroissante, on regarde la raison.",
+              "Ne pas partir sur une démonstration du type uₙ₊₁ - uₙ pour justifier le sens de variation.",
+              "Faire verbaliser que la raison donne l’information sur le sens de variation.",
+              "Rester sur une approche concrète, lisible et directement exploitable."
+            ],
+            "memory_aids": [
+              "Suite arithmétique = on ajoute toujours la même quantité.",
+              "La raison dit comment la suite évolue.",
+              "Suite arithmétique et fonction affine sont liées."
+            ]
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        },
+        {
+          "chapter_key": "resolution_graphique_equations_inequations",
+          "label": "Résolution graphique d’équations et d’inéquations",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est d’apprendre à résoudre graphiquement des équations du type ƒ(x) = g(x) et des inéquations du type ƒ(x) ⩾ g(x) où ƒ et g sont deux fonctions.",
+              "Les représentations graphiques des fonctions ƒ et g sont fournies ou obtenues à l’aide des outils numériques (logiciel de géométrie dynamique, calculatrice, tableur ou logiciel de programmation)."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde professionnelle, les élèves ont appris à résoudre des équations et inéquations du type ƒ(x) = g(x) et ƒ(x) ⩾ g(x) dans lesquelles ƒ est une fonction affine ou une fonction du type x ↦ kx² (avec k un nombre réel donné) et g une fonction constante. En classe de première, ils résolvent graphiquement des problèmes se ramenant à des équations et inéquations du type ƒ(x) = g(x) et ƒ(x) ⩾ g(x) dans lesquelles ƒ et g sont deux fonctions quelconques."
+            ],
+            "capacities_exact": [
+              "Résoudre graphiquement ou à l’aide d’un outil numérique des équations de la forme ƒ(x) = g(x) où ƒ et g sont des fonctions.",
+              "Résoudre graphiquement ou à l’aide d’un outil numérique des inéquations de la forme ƒ(x) ⩾ g(x) où ƒ et g sont des fonctions."
+            ],
+            "knowledge_exact": [
+              "Résolution graphique d’équations de la forme ƒ(x) = g(x) où ƒ et g sont des fonctions.",
+              "Résolution graphique d’inéquations de la forme ƒ(x) ⩾ g(x) où ƒ et g sont des fonctions."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Déterminer par balayage un encadrement ou une valeur approchée d’une solution d’une équation du type ƒ(x) = g(x) lorsqu’on sait qu’elle existe dans un intervalle donné."
+            ],
+            "comments_exact": [
+              "Les fonctions ƒ et g seront définies sur le même intervalle.",
+              "Lorsque les fonctions intervenant dans les équations ou inéquations à résoudre graphiquement ne sont pas étudiées en classe de première, leurs représentations graphiques sont fournies ou obtenues à l’aide d’un outil numérique."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans les domaines Électricité, Thermique et Mécanique du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Résoudre graphiquement des équations et inéquations entre deux fonctions.",
+              "Faire lire des intersections et des positions relatives de courbes.",
+              "Utiliser le balayage pour obtenir un encadrement ou une valeur approchée."
+            ],
+            "digital_tools_role": [
+              "Les représentations graphiques sont fournies ou obtenues à l’aide d’outils numériques."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En seconde, les élèves résolvaient des équations et inéquations de type ƒ(x) = g(x) et ƒ(x) ⩾ g(x) avec des fonctions plus simples."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Fonction affine.",
+                "Fonction du type x ↦ kx².",
+                "Résolution graphique d’équations du premier degré.",
+                "Lecture graphique sur un intervalle."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire résoudre graphiquement.",
+              "Faire utiliser la calculatrice ou l’outil numérique de l’élève.",
+              "Demander quel outil l’élève utilise avant de guider la manipulation.",
+              "Faire repérer les points d’intersection pour une équation.",
+              "Faire comparer les positions relatives des courbes pour une inéquation.",
+              "Faire utiliser un balayage pour encadrer une solution."
+            ],
+            "discouraged_methods": [
+              "Basculer vers une résolution algébrique alors que l’attendu ici est graphique ou numérique.",
+              "Supposer que tous les élèves utilisent la même calculatrice."
+            ],
+            "forbidden_methods": [
+              "Résoudre entièrement à la place de l’élève.",
+              "Donner directement les solutions sans passer par la lecture graphique ou l’outil numérique.",
+              "Utiliser des fonctions définies sur des intervalles différents sans le signaler."
+            ],
+            "common_pitfalls": [
+              "Confondre solution d’une équation et solution d’une inéquation.",
+              "Lire mal les intersections.",
+              "Ne pas tenir compte de l’intervalle de définition commun.",
+              "Mal utiliser la calculatrice faute d’avoir vérifié le modèle."
+            ],
+            "diagnostic_prompts": [
+              "Quel outil utilises-tu : NumWorks, Casio, TI ou autre ?",
+              "Sur quel intervalle les deux fonctions sont-elles définies ?",
+              "Où les courbes se coupent-elles ?",
+              "À quels endroits la courbe de ƒ est-elle au-dessus de celle de g ?",
+              "Peux-tu faire un balayage pour encadrer la solution ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Résolution soit graphique, soit à la calculatrice.",
+              "Demander systématiquement quel outil l’élève utilise et l’aider dans ce sens.",
+              "Tenir compte des commentaires du programme : même intervalle de définition et recours légitime à l’outil numérique.",
+              "Rester sur une lecture graphique propre et une aide à l’usage de la calculatrice, sans détour inutile."
+            ],
+            "memory_aids": [
+              "Équation : on cherche où les courbes se coupent.",
+              "Inéquation : on compare quelle courbe est au-dessus de l’autre.",
+              "Même intervalle pour les deux fonctions."
+            ]
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        },
+        {
+          "chapter_key": "fonctions_polynomes_degre_2",
+          "label": "Fonctions polynômes de degré 2",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de découvrir les fonctions polynômes de degré 2 à coefficients réels et d’étudier le signe d’un polynôme de degré 2 donné sous forme factorisée."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont appris à représenter une fonction affine et à résoudre graphiquement des équations du premier degré. En classe de première, ils découvrent les fonctions polynômes de degré 2 à coefficients réels."
+            ],
+            "capacities_exact": [
+              "Visualiser, à partir de la représentation graphique d’une fonction polynôme ƒ de degré 2, le nombre possible de solution(s) de l’équation ƒ(x) = 0.",
+              "Donner l’allure de la représentation graphique d’une fonction polynôme de degré 2 donnée sous forme factorisée.",
+              "Associer une parabole à une expression algébrique de degré 2 donnée.",
+              "Tester si un nombre réel est racine d’un polynôme de degré 2.",
+              "Factoriser un polynôme de degré 2 donné dont les racines réelles sont connues.",
+              "Déterminer les racines et le signe d’un polynôme de degré 2 donné sous forme factorisée.",
+              "Déterminer la deuxième solution d’une équation du second degré possédant deux solutions dont une solution est connue."
+            ],
+            "knowledge_exact": [
+              "Fonction polynôme de degré 2 à coefficients réels.",
+              "Nombre de solutions réelles de l’équation ƒ(x) = 0 où ƒ est une fonction polynôme de degré 2.",
+              "Représentation graphique d’une fonction polynôme de degré 2 donnée sous la forme a(x – x₁)(x – x₂).",
+              "Éléments caractéristiques : signe de a, sommet, ordonnée à l’origine, axe de symétrie.",
+              "Racine réelle d’un polynôme de degré 2.",
+              "Racine(s) et signe d’un polynôme de degré 2 donné sous forme factorisée."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Déterminer par balayage un encadrement ou une valeur approchée d’une racine d’une fonction polynôme de degré 2 qui n’est pas donnée sous forme factorisée lorsqu’on sait qu’elle existe dans un intervalle donné."
+            ],
+            "comments_exact": [
+              "Les propriétés sont admises à partir de conjectures émises après l’observation de représentations graphiques effectuées à l’aide des outils numériques.",
+              "Le calcul des racines à l’aide du discriminant ne figure pas au programme.",
+              "Pour la résolution d’une équation du second degré, on se limite aux situations où l’équation est donnée sous forme factorisée, à celles où l’on connaît au moins une des solutions et à celles pour lesquelles une des solutions est évidente. Dans les autres situations, une valeur approchée des solutions pourra être obtenue à l’aide d’un solveur ou d’un script informatique.",
+              "Les polynômes de degré 2 donnés sous forme factorisée admettent deux racines réelles distinctes ou une racine double."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans le domaine Électricité du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Découvrir les fonctions polynômes de degré 2 à coefficients réels.",
+              "Étudier le signe d’un polynôme de degré 2 donné sous forme factorisée.",
+              "Appuyer l’étude sur des conjectures issues de représentations graphiques.",
+              "Ne pas utiliser le discriminant."
+            ],
+            "digital_tools_role": [
+              "Utiliser les outils numériques pour observer des représentations graphiques, émettre des conjectures et obtenir au besoin une valeur approchée d’une racine."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En seconde, les élèves ont appris à représenter une fonction affine et à résoudre graphiquement des équations du premier degré."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Fonction affine.",
+                "Résolution graphique d’équations du premier degré.",
+                "Lecture graphique.",
+                "Fonction carré."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire identifier clairement les coefficients a, b et c comme des nombres seulement.",
+              "Faire lire graphiquement le nombre possible de solutions de l’équation ƒ(x) = 0.",
+              "Faire relier les racines aux points où la courbe coupe l’axe des abscisses.",
+              "Faire utiliser la forme factorisée pour déterminer racines et signe.",
+              "Faire utiliser un solveur ou un script informatique pour obtenir une valeur approchée dans les cas non factorisés.",
+              "Faire observer l’allure de la parabole en fonction du signe de a."
+            ],
+            "discouraged_methods": [
+              "Donner une explication abstraite des coefficients sans vérifier que l’élève isole bien le nombre devant chaque terme.",
+              "Entrer dans des démonstrations théoriques lourdes."
+            ],
+            "forbidden_methods": [
+              "Utiliser le discriminant.",
+              "Faire référence au discriminant.",
+              "Présenter comme exigible une résolution algébrique générale hors des cas prévus par le programme.",
+              "Donner directement les racines sans lecture graphique ou sans exploitation de la forme factorisée."
+            ],
+            "common_pitfalls": [
+              "L’élève donne 3x² au lieu de donner seulement 3 comme coefficient a.",
+              "L’élève confond racine et ordonnée à l’origine.",
+              "L’élève oublie que les racines correspondent à ƒ(x) = 0.",
+              "L’élève pense qu’il faut forcément une méthode algébrique complète.",
+              "L’élève oublie qu’il peut y avoir 0, 1 ou 2 solutions."
+            ],
+            "diagnostic_prompts": [
+              "Dans cette expression, que vaut a seulement ?",
+              "Quand la fonction vaut-elle zéro ?",
+              "Où la courbe coupe-t-elle l’axe des abscisses, c’est-à-dire l’axe horizontal ?",
+              "Combien de solutions réelles vois-tu au maximum ?",
+              "Le coefficient a est-il positif ou négatif ?",
+              "La parabole est-elle tournée vers le haut ou vers le bas ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Bien faire attention aux coefficients a, b et c : quand on demande le coefficient a, l’élève ne doit pas donner le x² avec.",
+              "Pour les racines, toujours partir de la représentation graphique ou de la forme factorisée selon le cas.",
+              "Quand on veut connaître les racines d’une fonction polynomiale de degré 2, c’est-à-dire lorsqu’elle vaut zéro, on le fait graphiquement dans l’esprit du module.",
+              "Il n’y a aucune résolution avec le discriminant.",
+              "Ne jamais faire référence au discriminant.",
+              "Pour la factorisation, bien voir avant les racines.",
+              "Questionner le nombre maximum de solutions : 0, 1 ou 2.",
+              "Utiliser l’astuce du sourire : si a est positif, la parabole est tournée vers le haut ; si a est négatif, elle est tournée vers le bas."
+            ],
+            "memory_aids": [
+              "a > 0 : le bonhomme sourit, la parabole monte.",
+              "a < 0 : le bonhomme fait la tête, la parabole descend.",
+              "Racines = endroits où la courbe coupe l’axe horizontal.",
+              "Une fonction de degré 2 peut avoir 0, 1 ou 2 solutions réelles."
+            ]
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        },
+        {
+          "chapter_key": "fonction_derivee_etude_variations",
+          "label": "Fonction dérivée et étude des variations d’une fonction",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Ce module introduit la notion de nombre dérivé d’une fonction en un point et celle de fonction dérivée. L’étude des variations d’une fonction dérivable s’effectue à partir de l’étude du signe de sa fonction dérivée.",
+              "De nouvelles fonctions sont étudiées dans ce module : fonction inverse, fonctions polynômes de degré inférieur ou égal à 2."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont étudié les fonctions affines et la fonction carré. Ils ont appris à déduire des variations d’une fonction ƒ sur un intervalle donné, celles de la fonction kƒ où k est un réel donné. En classe de première, ils disposent d’une méthode experte pour étudier les variations des fonctions dérivables et découvrent les fonctions polynômes de degré 2 ainsi que la fonction inverse."
+            ],
+            "capacities_exact": [
+              "Construire en un point la tangente à la courbe représentative d’une fonction ƒ à l’aide d’outils numériques.",
+              "Déterminer, par une lecture graphique, lorsqu’il existe, le nombre dérivé d’une fonction ƒ en l’abscisse d’un point de la courbe représentative de cette fonction.",
+              "Construire en un point la tangente à la courbe représentative d’une fonction ƒ connaissant le nombre dérivé en ce point.",
+              "Écrire l’équation réduite de la tangente à une courbe en un point lorsqu’elle existe.",
+              "Utiliser les formules et les règles de dérivation pour déterminer la dérivée d’une fonction polynôme de degré inférieur ou égal à 2.",
+              "Étudier, sur un intervalle donné, les variations d’une fonction à partir du calcul et de l’étude du signe de sa dérivée.",
+              "Dresser son tableau de variations.",
+              "Déterminer un extremum d’une fonction sur un intervalle donné à partir de son sens de variation.",
+              "Dresser le tableau de variations d’une fonction polynôme de degré inférieur ou égal à 2.",
+              "Étudier la fonction inverse : dérivée, variations, représentation graphique.",
+              "Dresser son tableau de variations."
+            ],
+            "knowledge_exact": [
+              "Sécantes à une courbe passant par un point.",
+              "Tangente à une courbe en un point.",
+              "Nombre dérivé.",
+              "Équation réduite de la tangente à une courbe en un point.",
+              "Fonction dérivée d’une fonction dérivable sur un intervalle.",
+              "Notation ƒ’.",
+              "Fonctions dérivées des fonctions affines et carré.",
+              "Règles de dérivation : dérivée du produit d’une fonction dérivable par une constante, dérivée de la somme de deux fonctions dérivables.",
+              "Lien entre signe de la dérivée d’une fonction sur un intervalle et sens de variation de cette fonction sur cet intervalle.",
+              "Extremum d’une fonction sur un intervalle donné.",
+              "Extremum local et extremum global.",
+              "Fonction polynôme de degré inférieur ou égal à 2.",
+              "Fonction inverse."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Visualiser la tangente comme meilleure approximation affine de la fonction « à proximité » du point considéré."
+            ],
+            "comments_exact": [
+              "Le nombre dérivé et la notion de tangente seront introduits en utilisant un logiciel de géométrie dynamique. La tangente en un point de la courbe est introduite comme position « limite des sécantes » passant par ce point.",
+              "Le coefficient directeur de la tangente à la courbe représentative de la fonction ƒ au point A de coordonnées (xA ; ƒ(xA)) est appelé nombre dérivé de ƒ en xA. On le note ƒ’(xA).",
+              "La fonction dérivée ƒ’ de la fonction ƒ est la fonction qui à tout x associe le nombre dérivé de la fonction ƒ en x.",
+              "La formule de dérivation de la fonction carré est conjecturée à l’aide des outils numériques puis admise.",
+              "Les formules concernant la dérivée du produit d’une fonction dérivable par une constante et la dérivée de la somme de deux fonctions dérivables sont admises et appliquées sur des exemples ne nécessitant aucune virtuosité de calcul.",
+              "Les formules sont progressivement introduites pour déterminer les dérivées de fonctions polynômes de degré inférieur ou égal à 2.",
+              "Les théorèmes liant le sens de variation d’une fonction et le signe de sa dérivée sont admis à partir de conjectures émises après l’observation des représentations graphiques effectuées à l’aide des outils numériques.",
+              "On visualise graphiquement la différence entre extremum local et extremum global.",
+              "On constate graphiquement sur un exemple, en utilisant les outils numériques, que le seul fait que la dérivée d’une fonction s’annule en un point ne suffit pas pour conclure que cette fonction possède un extremum local en ce point.",
+              "Les formules des fonctions dérivées des fonctions affines et carré sont à connaître."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans les domaines Mécanique et Signaux du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Introduire le nombre dérivé et la tangente avec les outils numériques.",
+              "Étudier les variations à partir du signe de la dérivée.",
+              "Distinguer extremum local et extremum global.",
+              "Constater qu’une dérivée nulle en un point ne suffit pas à conclure à un extremum local."
+            ],
+            "digital_tools_role": [
+              "Utiliser un logiciel de géométrie dynamique pour introduire tangente et nombre dérivé et observer graphiquement les variations."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En classe de seconde, les élèves ont étudié les fonctions affines et la fonction carré et ont appris à déduire des variations d’une fonction ƒ sur un intervalle donné, celles de la fonction kƒ où k est un réel donné."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Fonctions affines.",
+                "Fonction carré.",
+                "Variations d’une fonction sur un intervalle.",
+                "Effet du facteur k dans kƒ."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "S’appuyer fortement sur les commentaires du programme.",
+              "Introduire le nombre dérivé et la tangente à partir d’un logiciel de géométrie dynamique.",
+              "Faire lire graphiquement le nombre dérivé quand c’est possible.",
+              "Faire le lien entre signe de la dérivée et variations.",
+              "Faire distinguer extremum local et extremum global graphiquement.",
+              "Faire constater sur un exemple qu’une dérivée nulle ne garantit pas un extremum local.",
+              "Utiliser les formules de dérivation seulement sur des exemples simples sans technicité excessive."
+            ],
+            "discouraged_methods": [
+              "Entrer dans une approche théorique lourde du nombre dérivé.",
+              "Exiger une virtuosité de calcul non attendue.",
+              "Multiplier les démonstrations abstraites."
+            ],
+            "forbidden_methods": [
+              "Faire une démonstration théorique complète à la place de l’élève.",
+              "Donner directement le tableau de variations sans passer par l’étude du signe de la dérivée.",
+              "Oublier de distinguer extremum local et extremum global."
+            ],
+            "common_pitfalls": [
+              "Confondre nombre dérivé et fonction dérivée.",
+              "Croire qu’une dérivée nulle implique automatiquement un extremum local.",
+              "Ne pas relier le signe de la dérivée aux variations.",
+              "Mélanger extremum local et extremum global.",
+              "Se perdre dans les calculs au lieu d’exploiter le cadre donné par le programme."
+            ],
+            "diagnostic_prompts": [
+              "Que représente la tangente en ce point ?",
+              "Peux-tu lire le coefficient directeur de cette tangente ?",
+              "Quelle est la dérivée de cette fonction ?",
+              "Sur quel intervalle la dérivée est-elle positive ? négative ?",
+              "Que peux-tu en déduire sur les variations ?",
+              "Est-ce un extremum local ou global ?",
+              "Le fait que la dérivée s’annule ici suffit-il pour conclure ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Ne pas alourdir avec une approche théorique du nombre dérivé.",
+              "S’appuyer beaucoup sur les commentaires du programme, ils sont centraux ici.",
+              "Présenter la fonction dérivée comme un outil pour étudier les variations.",
+              "Rester sur des exemples simples et lisibles.",
+              "Mettre en avant la différence entre extremum local et extremum global.",
+              "Faire constater qu’une dérivée nulle ne suffit pas pour conclure à un extremum local."
+            ],
+            "memory_aids": [
+              "Signe de la dérivée → variations de la fonction.",
+              "Dérivée nulle ne veut pas dire automatiquement extremum.",
+              "Tangente = lecture locale du comportement de la courbe."
+            ]
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        },
+        {
+          "chapter_key": "calculs_commerciaux_financiers",
+          "label": "Calculs commerciaux et financiers",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "specific_condition": "pour les spécialités de baccalauréat professionnel ne comportant pas d’enseignement de physique-chimie",
+          "official_program": {
+            "objectives_exact": [
+              "Ce module permet de réinvestir, lors de l’étude de situations mettant en œuvre des calculs commerciaux et financiers, les capacités et connaissances concernant les suites arithmétiques, la dérivation et la fonction inverse."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont appris à utiliser ou établir divers documents (factures, bulletins de paye, documents financiers…) communément utilisés dans les organisations (entreprises commerciales, associations, établissements publics). En classe de première, ils abordent des situations professionnelles dans lesquelles interviennent des intérêts simples, des taux proportionnels et des coûts. Ce module se prête à des séances de co-intervention, par exemple lors de l’utilisation de logiciels métiers."
+            ],
+            "capacities_exact": [
+              "Calculer le montant d’un capital disponible après n périodes de placement à intérêt simple.",
+              "Déterminer un taux.",
+              "Calculer un coût total de production, un résultat, un coût marginal.",
+              "Calculer un coût moyen unitaire."
+            ],
+            "knowledge_exact": [
+              "Intérêts simples.",
+              "Taux annuel, mensuel, par quinzaine, journalier.",
+              "Coût total de production.",
+              "Résultat.",
+              "Coût marginal.",
+              "Coût moyen unitaire."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [
+              "Calculer le montant d’un capital obtenu après n périodes de placement à intérêts simples.",
+              "Déterminer un coût marginal.",
+              "Déterminer un coût moyen unitaire."
+            ],
+            "comments_exact": [
+              "Le coût marginal Cₘ(x) est défini par Cₘ(x) = C(x + 1) – C(x), où C(x) est le coût total de production de x unités. Pour des productions importantes, le coût marginal Cₘ(x) peut être approché par C’(x). Les capacités et connaissances concernant la dérivation sont réinvesties dans les calculs des coûts marginaux.",
+              "Les capacités et connaissances concernant les suites arithmétiques sont réinvesties dans les calculs concernant les intérêts simples et les taux proportionnels.",
+              "Les capacités et connaissances concernant la fonction inverse sont réinvesties dans le calcul de coûts moyens."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Réinvestir suites arithmétiques, dérivation et fonction inverse dans des situations concrètes.",
+              "Travailler les intérêts simples, les taux proportionnels, les coûts et les coûts marginaux.",
+              "Se prêter à des séances de co-intervention."
+            ],
+            "digital_tools_role": [
+              "Possibilité d’utiliser des logiciels métiers et des outils numériques pour les calculs."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En seconde, les élèves ont appris à utiliser ou établir divers documents courants comme des factures, bulletins de paye et documents financiers."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Utilisation ou établissement de documents financiers courants.",
+                "Lecture de factures.",
+                "Lecture de bulletins de paye.",
+                "Connaissances de base liées aux organisations."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "S’appuyer fortement sur les commentaires du programme.",
+              "Faire reformuler la situation concrète.",
+              "Faire identifier la donnée utile : capital, taux, durée, coût total, coût marginal, coût moyen.",
+              "Faire le lien avec les suites arithmétiques pour les intérêts simples et les taux proportionnels.",
+              "Faire le lien avec la dérivation pour le coût marginal.",
+              "Faire le lien avec la fonction inverse pour le coût moyen."
+            ],
+            "discouraged_methods": [
+              "Rester dans un traitement purement abstrait.",
+              "Décorréler complètement le calcul du contexte professionnel."
+            ],
+            "forbidden_methods": [
+              "Faire les calculs à la place de l’élève sans guidage.",
+              "Oublier les commentaires du programme alors qu’ils structurent le module."
+            ],
+            "common_pitfalls": [
+              "Confondre intérêt simple et autre type d’intérêt.",
+              "Ne pas identifier le bon taux.",
+              "Confondre coût total, coût marginal et coût moyen.",
+              "Ne pas relier coût marginal et dérivée."
+            ],
+            "diagnostic_prompts": [
+              "Quelles sont les données utiles de la situation ?",
+              "Parle-t-on d’intérêt simple ?",
+              "Quel taux doit-on utiliser ?",
+              "Que représente le coût total ?",
+              "Que représente le coût marginal ?",
+              "Quel lien peux-tu faire avec la dérivée ou la fonction inverse ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [
+              "Bien s’appuyer sur les commentaires du programme.",
+              "Faire ressortir explicitement les réinvestissements : suites arithmétiques, dérivation, fonction inverse.",
+              "Rester dans des situations professionnelles concrètes et lisibles.",
+              "Faire le lien entre coût marginal et dérivée.",
+              "Faire le lien entre coûts moyens et fonction inverse."
+            ],
+            "memory_aids": [
+              "Intérêts simples → réinvestissement des suites arithmétiques.",
+              "Coût marginal → lien avec la dérivée.",
+              "Coût moyen → lien avec la fonction inverse."
+            ]
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "geometrie",
+      "domain_label": "Géométrie",
+      "domain_overview": {
+        "description_exact": [
+          "En classe de première, les élèves approfondissent leurs connaissances géométriques de l’espace. Ils remobilisent les propriétés et théorèmes vus en classe de seconde pour étudier de nouvelles configurations ; ainsi, ils résolvent des problèmes mettant en jeu des solides ou leur section par un plan.",
+          "Ils découvrent les vecteurs du plan, qui sont un outil efficace pour modéliser en physique, pour analyser des figures géométriques et résoudre des problèmes. Ils les manipulent dans le plan muni d’un repère orthogonal.",
+          "La fonction sinus est introduite grâce au cercle trigonométrique.",
+          "Dans le cadre de la résolution de problèmes, l’utilisation de logiciels de géométrie dynamique donne aux élèves une plus grande autonomie et encourage leur prise d’initiative."
+        ],
+        "main_objectives_exact": [
+          "approfondir les connaissances géométriques de l’espace ;",
+          "résoudre des problèmes mettant en jeu des solides ou leur section par un plan ;",
+          "découvrir les vecteurs du plan comme outil pour modéliser en physique, analyser des figures géométriques et résoudre des problèmes ;",
+          "introduire la fonction sinus grâce au cercle trigonométrique."
+        ],
+        "digital_tools_exact": [
+          "Dans le cadre de la résolution de problèmes, l’utilisation de logiciels de géométrie dynamique donne aux élèves une plus grande autonomie et encourage leur prise d’initiative."
+        ]
+      },
+      "chapters": [
+        {
+          "chapter_key": "geometrie_dans_espace",
+          "label": "Géométrie dans l’espace",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Ce module permet de développer la vision dans l’espace à partir de quelques solides connus et d’apprendre à réaliser la section d’un solide usuel par un plan à l’aide d’un outil numérique."
+            ],
+            "links_with_seconde_exact": [
+              "Au cycle 4, les élèves ont rencontré les notions d’abscisse, d’ordonnée et d’altitude et ont appris à se repérer dans un parallélépipède rectangle.",
+              "En classe de seconde professionnelle, les élèves ont consolidé les techniques de calcul avec des grandeurs mesurables d’une part, et leurs connaissances des figures et solides usuels d’autre part.",
+              "En classe de première, ce module permet d’approfondir les capacités et connaissances travaillées en classe de seconde professionnelle et d’étudier la notion de section d’un solide par un plan."
+            ],
+            "capacities_exact": [
+              "Représenter un solide usuel à l’aide d’un logiciel de géométrie dynamique ou d’un logiciel métier.",
+              "Exploiter une représentation d’un solide usuel ou d’un solide constitué d’un assemblage de solides usuels.",
+              "En utilisant un logiciel de géométrie dynamique ou un logiciel métier :",
+              "réaliser la section d’un solide usuel par un plan ;",
+              "construire la section plane d’un solide passant par des points donnés."
+            ],
+            "knowledge_exact": [
+              "Solides usuels : le cube, le pavé droit, la pyramide, le cylindre droit, le cône, la boule.",
+              "Section d’un solide par un plan."
+            ],
+            "comments_exact": [
+              "Les solides seront au besoin représentés dans l’espace rapporté à des repères orthogonaux (introduits à l’occasion sans formalisme)."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans le domaine Mécanique du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Développer la vision dans l’espace à partir de solides connus.",
+              "Étudier la notion de section d’un solide par un plan.",
+              "S’appuyer sur des représentations et sur des outils numériques pour faire construire les sections."
+            ],
+            "digital_tools_role": [
+              "Utiliser un logiciel de géométrie dynamique ou un logiciel métier pour représenter un solide, réaliser une section par un plan et construire une section plane."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "cycle_4",
+              "type": "official_link",
+              "content": "Au cycle 4, les élèves ont rencontré les notions d’abscisse, d’ordonnée et d’altitude et ont appris à se repérer dans un parallélépipède rectangle."
+            },
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En classe de seconde professionnelle, les élèves ont consolidé les techniques de calcul avec des grandeurs mesurables d’une part, et leurs connaissances des figures et solides usuels d’autre part."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "cycle_4",
+              "content": [
+                "Notions d’abscisse, d’ordonnée et d’altitude.",
+                "Repérage dans un parallélépipède rectangle."
+              ]
+            },
+            {
+              "from_level": "seconde",
+              "content": [
+                "Techniques de calcul avec des grandeurs mesurables.",
+                "Connaissance des figures usuelles.",
+                "Connaissance des solides usuels."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire manipuler des représentations de solides usuels.",
+              "Faire utiliser un logiciel de géométrie dynamique ou un logiciel métier.",
+              "Faire construire une section plane à partir de points donnés.",
+              "Introduire ponctuellement des repères orthogonaux dans l’espace sans formalisme."
+            ],
+            "discouraged_methods": [
+              "Introduire un formalisme spatial lourd qui dépasse l’attendu du module.",
+              "Rester uniquement dans des explications verbales sans support visuel."
+            ],
+            "forbidden_methods": [
+              "Donner directement la section sans laisser l’élève exploiter la représentation.",
+              "Transformer le module en cours théorique de géométrie de l’espace sans appui sur les solides usuels."
+            ],
+            "common_pitfalls": [
+              "Mauvaise visualisation du solide dans l’espace.",
+              "Confusion entre une face du solide et une section.",
+              "Difficulté à identifier le plan de coupe.",
+              "Erreur dans la construction de la section plane."
+            ],
+            "diagnostic_prompts": [
+              "Quel est le solide usuel représenté ?",
+              "Quels sont les points par lesquels doit passer la section ?",
+              "Le plan coupe-t-il le solide selon une face ou selon une autre figure ?",
+              "Peux-tu décrire la forme de la section obtenue ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        },
+        {
+          "chapter_key": "vecteurs_du_plan",
+          "label": "Vecteurs du plan",
+          "groupements": [
+            "A",
+            "B"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "En classe de première, on introduit les vecteurs du plan, éventuellement muni d’un repère orthogonal, comme outil permettant d’étudier des problèmes issus des mathématiques ou des autres disciplines, en particulier de la physique."
+            ],
+            "links_with_seconde_exact": [],
+            "capacities_exact": [
+              "Construire un représentant d’un vecteur non nul à partir de ses caractéristiques.",
+              "Reconnaître graphiquement des vecteurs égaux, des vecteurs opposés, des vecteurs colinéaires.",
+              "Construire le vecteur obtenu comme :",
+              "somme de deux vecteurs ;",
+              "produit d’un vecteur par un nombre réel non nul.",
+              "Déterminer graphiquement les coordonnées d’un vecteur dans le plan rapporté à un repère orthogonal.",
+              "Représenter, dans le plan rapporté à un repère orthogonal, un vecteur dont les coordonnées sont données.",
+              "Calculer les coordonnées d’un vecteur connaissant les coordonnées des extrémités d’un de ses représentants.",
+              "Dans le plan muni d’un repère orthogonal, calculer les coordonnées du vecteur obtenu comme :",
+              "somme de deux vecteurs ;",
+              "produit d’un vecteur par un nombre réel.",
+              "Reconnaître, à l’aide de leurs coordonnées, des vecteurs égaux, des vecteurs colinéaires dans le plan muni d’un repère orthogonal.",
+              "Calculer la norme d’un vecteur dans le plan muni d’un repère orthonormé."
+            ],
+            "knowledge_exact": [
+              "Représentants d’un vecteur.",
+              "Éléments caractéristiques d’un vecteur non nul : direction, sens et norme (ou longueur).",
+              "Vecteurs égaux, vecteurs opposés, vecteurs colinéaires, vecteur nul.",
+              "Somme de deux vecteurs.",
+              "Produit d’un vecteur par un nombre réel.",
+              "Coordonnées d’un vecteur dans le plan rapporté à un repère orthogonal.",
+              "Coordonnées du vecteur AB⃗ dans le plan rapporté à un repère orthogonal où A et B sont deux points donnés du plan.",
+              "Coordonnées du vecteur somme de deux vecteurs de coordonnées données.",
+              "Coordonnées du vecteur produit d’un vecteur de coordonnées données par un nombre réel.",
+              "Coordonnées de vecteurs égaux, colinéaires.",
+              "Expression de la norme d’un vecteur dans le plan muni d’un repère orthonormé en fonction des coordonnées de ce vecteur."
+            ],
+            "comments_exact": [
+              "Le lien entre produit d’un vecteur par un réel et la colinéarité est établi.",
+              "Le lien entre vecteurs égaux et parallélogramme est établi.",
+              "La norme d’un vecteur est définie comme la longueur d’un de ses représentants.",
+              "Ce module est l’occasion d’étudier notamment :",
+              "la nature de figures usuelles ;",
+              "l’alignement de trois points ;",
+              "le parallélisme de deux droites."
+            ],
+            "bivalence_exact": [
+              "Ce module est mis en œuvre dans les domaines Mécanique et Électricité du programme de physique-chimie."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Introduire les vecteurs du plan comme outil de modélisation et d’analyse de figures.",
+              "Faire manipuler les vecteurs graphiquement puis avec des coordonnées.",
+              "Établir le lien entre produit par un réel et colinéarité, et entre vecteurs égaux et parallélogramme."
+            ],
+            "digital_tools_role": [
+              "Le domaine géométrie encourage l’utilisation de logiciels de géométrie dynamique dans la résolution de problèmes."
+            ]
+          },
+          "cross_level_bridges": [],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Repérage dans le plan.",
+                "Lecture et exploitation de figures usuelles.",
+                "Utilisation d’un repère orthogonal ou orthonormé."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire construire et reconnaître graphiquement des vecteurs.",
+              "Faire passer progressivement de la représentation au calcul de coordonnées.",
+              "Faire utiliser les caractéristiques direction, sens et norme.",
+              "Faire exploiter le repère orthogonal puis orthonormé selon la tâche demandée.",
+              "Faire le lien avec la nature de figures, l’alignement et le parallélisme."
+            ],
+            "discouraged_methods": [
+              "Entrer dans un formalisme vectoriel trop théorique.",
+              "Multiplier les notations sans appui sur une figure."
+            ],
+            "forbidden_methods": [
+              "Donner directement les coordonnées ou les conclusions sans exploitation de la figure ou des calculs.",
+              "Couper le lien entre vecteurs et problèmes géométriques concrets."
+            ],
+            "common_pitfalls": [
+              "Confondre direction, sens et norme.",
+              "Confondre vecteurs égaux et vecteurs colinéaires.",
+              "Oublier qu’un vecteur a plusieurs représentants.",
+              "Erreur de signe dans les coordonnées.",
+              "Confusion entre repère orthogonal et repère orthonormé."
+            ],
+            "diagnostic_prompts": [
+              "Quelles sont les caractéristiques de ce vecteur ?",
+              "Ces deux vecteurs sont-ils égaux, opposés ou colinéaires ?",
+              "Quelles sont les coordonnées des extrémités du représentant ?",
+              "Quel vecteur obtiens-tu en faisant la somme ?",
+              "Comment calcules-tu la norme dans un repère orthonormé ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": []
+          }
+        },
+        {
+          "chapter_key": "trigonometrie",
+          "label": "Trigonométrie",
+          "groupements": [
+            "A",
+            "B"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’objectif de ce module est de découvrir des outils permettant de modéliser des phénomènes périodiques.",
+              "Les élèves étudient la fonction sinus dont la courbe représentative est construite point par point par enroulement de la droite des réels sur le cercle trigonométrique.",
+              "Une nouvelle unité de mesure d’angle, le radian, est introduite."
+            ],
+            "links_with_cycle_4_exact": [
+              "Au cycle 4, les élèves ont rencontré et utilisé les lignes trigonométriques dans le triangle rectangle."
+            ],
+            "capacities_exact": [
+              "Placer, sur le cercle trigonométrique, le point M image d’un nombre réel x donné par enroulement de la droite des réels sur le cercle trigonométrique.",
+              "Placer sur le cercle trigonométrique les points images des réels -x ; π - x ; π + x ; π/2 - x ; π/2 + x, connaissant le point image du réel x.",
+              "Effectuer des conversions de degrés en radians, de radians en degrés.",
+              "Déterminer graphiquement, à l’aide du cercle trigonométrique, le cosinus et le sinus d’un nombre réel donné.",
+              "Utiliser le cercle trigonométrique pour écrire les cosinus et sinus des réels -x ; π - x ; π + x ; π/2 - x ; π/2 + x en fonction des cosinus et sinus du réel x."
+            ],
+            "knowledge_exact": [
+              "On munit le plan d’un repère orthonormé direct.",
+              "Cercle trigonométrique.",
+              "Radian.",
+              "Angles supplémentaires, angles complémentaires, angles opposés.",
+              "La mesure en degrés d’un angle géométrique et sa mesure principale en radians sont proportionnelles (une mesure de l’angle plat est π radians).",
+              "Cosinus et sinus d’un nombre réel."
+            ],
+            "comments_exact": [],
+            "bivalence_exact": []
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Introduire la fonction sinus grâce au cercle trigonométrique.",
+              "Faire le lien entre enroulement de la droite des réels et point image sur le cercle.",
+              "Introduire le radian comme nouvelle unité de mesure d’angle.",
+              "Modéliser des phénomènes périodiques."
+            ],
+            "digital_tools_role": [
+              "Le domaine géométrie encourage l’utilisation de logiciels de géométrie dynamique pour donner plus d’autonomie et encourager la prise d’initiative."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "cycle_4",
+              "type": "official_link",
+              "content": "Au cycle 4, les élèves ont rencontré et utilisé les lignes trigonométriques dans le triangle rectangle."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "cycle_4",
+              "content": [
+                "Lignes trigonométriques dans le triangle rectangle."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire construire le cercle trigonométrique dans un repère orthonormé direct.",
+              "Faire passer par l’enroulement de la droite des réels sur le cercle trigonométrique.",
+              "Faire travailler les symétries et relations sur -x, π - x, π + x, π/2 - x et π/2 + x.",
+              "Faire convertir degrés et radians.",
+              "Faire lire graphiquement cosinus et sinus sur le cercle trigonométrique."
+            ],
+            "discouraged_methods": [
+              "Introduire trop tôt des résolutions d’équations trigonométriques qui relèvent de la terminale.",
+              "Rester dans des formules à mémoriser sans appui sur le cercle."
+            ],
+            "forbidden_methods": [
+              "Présenter la formule des probabilités totales ou des contenus hors module par analogie mal placée.",
+              "Basculer vers le programme de terminale sur les équations trigonométriques ou les vecteurs de Fresnel."
+            ],
+            "common_pitfalls": [
+              "Confondre degrés et radians.",
+              "Se tromper de point image sur le cercle trigonométrique.",
+              "Confondre cosinus et sinus.",
+              "Mal utiliser les relations sur les angles associés.",
+              "Ne pas comprendre le lien entre phénomène périodique et fonction sinus."
+            ],
+            "diagnostic_prompts": [
+              "Quel est le point image du réel x sur le cercle trigonométrique ?",
+              "Quelle est la mesure en radians de cet angle ?",
+              "Peux-tu convertir cette mesure en degrés ?",
+              "Quel est le cosinus de ce réel ? quel est son sinus ?",
+              "Que deviennent cos(x) et sin(x) pour -x ou pour π - x ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "algorithmique_programmation",
+      "label": "Algorithmique et programmation",
+      "groupements": [
+        "A",
+        "B",
+        "C"
+      ],
+      "selection_mode": "transversal",
+      "chapter_selection": true,
+      "description_ui": "Ce module est transversal et travaillé dans les différents domaines du programme.",
+      "knowledge_modal_enabled": true,
+      "chapters": [
+        {
+          "chapter_key": "algorithmique_python",
+          "label": "Algorithmique et programmation",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Ce module permet aux élèves de consolider et d’approfondir l’étude de l’algorithmique et de la programmation commencée dans les classes antérieures."
+            ],
+            "links_with_seconde_exact": [
+              "En classe de seconde, les élèves ont travaillé sur les notions de variable, d’instruction conditionnelle et de boucle ainsi que sur l’utilisation de fonctions et ont découvert les listes.",
+              "En continuité avec la classe de seconde, le langage utilisé est le langage Python."
+            ],
+            "capacities_exact": [
+              "Analyser un problème.",
+              "Décomposer un problème en sous-problèmes.",
+              "Repérer les enchaînements logiques et les traduire en instructions conditionnelles et en boucles.",
+              "Choisir ou reconnaître le type d’une variable.",
+              "Réaliser un calcul à l’aide d’une ou de plusieurs variables.",
+              "Modifier ou compléter un algorithme ou un programme.",
+              "Concevoir un algorithme ou un programme simple pour résoudre un problème.",
+              "Comprendre et utiliser des fonctions.",
+              "Compléter la définition d’une fonction.",
+              "Structurer un programme en ayant recours à des fonctions pour résoudre un problème donné.",
+              "Générer une liste.",
+              "Manipuler des éléments d’une liste (ajouter, supprimer, extraire…).",
+              "Parcourir une liste.",
+              "Itérer une ou plusieurs instructions sur les éléments d’une liste."
+            ],
+            "knowledge_exact": [
+              "Séquences d’instructions, instructions conditionnelles, boucles bornées (for) et non bornées (while).",
+              "Types de variables : entiers, flottants, chaînes de caractères, booléens.",
+              "Affectation d’une variable.",
+              "Arguments d’une fonction.",
+              "Valeur(s) renvoyée(s) par une fonction.",
+              "Liste."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [],
+            "comments_exact": [
+              "Les notions abordées dans ce module ne font pas l’objet d’un cours spécifique et sont travaillées en situation.",
+              "La maîtrise des propriétés des différents types de variables n’est pas attendue.",
+              "Pour les fonctions en Python, dans des cas simples, on ne donne pas systématiquement aux élèves l’en-tête de la fonction (nom et arguments).",
+              "Les notions relatives aux types de variables et à l’affectation sont consolidées. Pour un algorithme écrit en langage naturel, on utilise le symbole ← pour désigner l’affectation, alors qu’en langage Python, on utilise le signe =.",
+              "L’accent est mis sur la programmation modulaire qui permet de découper une tâche complexe en tâches plus simples.",
+              "Les listes peuvent être générées en extension, par ajouts successifs d’éléments, et en compréhension.",
+              "La génération de listes en compréhension et en extension est mise en lien avec la notion d’ensemble. Les conditions apparaissant dans les listes définies en compréhension permettent de travailler la logique.",
+              "Afin d’éviter toute confusion, il est recommandé de se limiter aux listes sans présenter d’autres types de collections.",
+              "La statistique à une variable et les suites numériques sont des domaines propices à l’utilisation des listes."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Consolider et approfondir l’algorithmique et la programmation commencées dans les classes antérieures.",
+              "Travailler en situation et non sous forme de cours spécifique.",
+              "Mettre l’accent sur la programmation modulaire.",
+              "Relier les listes à la notion d’ensemble et à la logique."
+            ],
+            "digital_tools_role": [
+              "Le langage utilisé est Python.",
+              "L’algorithmique et la programmation sont intégrées de manière transversale dans le cours de mathématiques."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "En classe de seconde, les élèves ont travaillé sur les notions de variable, d’instruction conditionnelle et de boucle ainsi que sur l’utilisation de fonctions et ont découvert les listes."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Variables.",
+                "Instructions conditionnelles.",
+                "Boucles.",
+                "Utilisation de fonctions.",
+                "Listes."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire verbaliser la logique avant de coder.",
+              "Faire décomposer un problème en sous-problèmes.",
+              "Faire distinguer variable, affectation, condition, boucle et fonction.",
+              "Faire travailler la programmation modulaire par petites tâches.",
+              "Faire utiliser les listes en extension et en compréhension.",
+              "Faire le lien entre listes définies en compréhension et logique."
+            ],
+            "discouraged_methods": [
+              "Faire un cours théorique long et déconnecté des situations.",
+              "Introduire d’autres types de collections qui créent de la confusion.",
+              "Exiger la maîtrise des propriétés théoriques des types de variables."
+            ],
+            "forbidden_methods": [
+              "Donner directement un programme complet sans travail de logique.",
+              "Sortir du cadre Python demandé par le programme.",
+              "Présenter le module comme un chapitre séparé du reste des mathématiques."
+            ],
+            "common_pitfalls": [
+              "Confondre variable et valeur.",
+              "Confondre affectation en langage naturel et en Python.",
+              "Mauvaise utilisation des boucles.",
+              "Mauvaise compréhension des arguments et des valeurs renvoyées.",
+              "Erreur dans la manipulation des listes."
+            ],
+            "diagnostic_prompts": [
+              "Quel est le problème à résoudre ?",
+              "En quelles sous-étapes peux-tu le découper ?",
+              "Quelle variable utilises-tu ?",
+              "Quelle est la condition ?",
+              "Que fait la boucle ?",
+              "Que renvoie la fonction ?",
+              "Comment génères-tu la liste ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        }
+      ]
+    },
+    {
+      "domain_key": "automatismes",
+      "label": "Automatismes",
+      "groupements": [
+        "A",
+        "B",
+        "C"
+      ],
+      "selection_mode": "transversal",
+      "chapter_selection": true,
+      "description_ui": "Cette partie du programme est transversale et travaillée régulièrement sous forme d’activités rituelles.",
+      "knowledge_modal_enabled": true,
+      "chapters": [
+        {
+          "chapter_key": "automatismes_transversaux",
+          "label": "Automatismes",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "Cette partie du programme vise à construire et entretenir des aptitudes dans les domaines du calcul, des grandeurs et mesures et de la géométrie.",
+              "Il s’agit d’automatiser des connaissances, des procédures, des méthodes et des stratégies dont la bonne maîtrise favorise grandement la réussite scolaire en mathématiques et dans les autres disciplines, aide à la réussite d’études supérieures et constitue un réel atout dans la vie sociale.",
+              "Plus les élèves gagnent en aisance dans ces automatismes, plus ils sont mis en confiance et en situation de réussite dans l’apprentissage des mathématiques.",
+              "Ce faisant, on développe également leur esprit critique grâce à une meilleure maîtrise des nombres, des graphiques et du calcul."
+            ],
+            "links_with_seconde_exact": [
+              "Les automatismes figurant dans le programme de seconde professionnelle continuent à être entretenus."
+            ],
+            "capacities_exact": [
+              "Calcul de la probabilité d’un événement dans le cas d’une situation aléatoire simple.",
+              "Dénombrements à l’aide de tableaux à double entrée ou d’arbres donnés.",
+              "Lecture d’un graphique, d’un diagramme en secteurs, en bâtons ou en colonnes, d’un diagramme en boîte à moustaches ou toute autre représentation (repérage de l’origine du repère, les unités de graduation ou les échelles).",
+              "Association d’un graphique avec des données et vice-versa.",
+              "Calcul d’indicateurs de position ou de dispersion à l’aide d’outils numériques.",
+              "Résolution algébrique d’une équation du premier degré à une inconnue du type ax + b = c où a, b et c sont des entiers relatifs.",
+              "Résolution algébrique d’une inéquation du premier degré à une inconnue du type ax + b < c où a, b et c sont des entiers relatifs.",
+              "Reconnaissance d’une situation de proportionnalité et détermination de la fonction linéaire qui la modélise.",
+              "Reconnaissance de l’allure d’une représentation graphique à partir d’un tableau de variations donné.",
+              "Établissement du tableau de variations d’une fonction dont la courbe représentative est donnée.",
+              "Détermination graphique, lorsqu’ils existent, des extremums globaux d’une fonction sur un intervalle.",
+              "Calcul de l’ordonnée d’un point de la courbe représentative d’une fonction connaissant son abscisse et l’expression de la fonction.",
+              "Détermination graphique du coefficient directeur d’une droite non verticale.",
+              "Reconnaissance du parallélisme de deux droites d’équations réduites données.",
+              "Résolution graphique d’une équation du type ƒ(x) = c ou d’une inéquation du type ƒ(x) < c, où c est un réel donné et ƒ une fonction dont la représentation graphique est donnée.",
+              "Calcul du montant d’un intérêt simple et d’une valeur acquise.",
+              "Distinction entre cercle, disque, sphère et boule.",
+              "Reconnaissance du cube, du pavé droit, de la pyramide, du cylindre droit, du cône et de la boule.",
+              "Calcul de l’aire d’un triangle, d’un carré, d’un rectangle, d’un disque.",
+              "Calcul du volume d’un cube, d’un pavé droit et d’un cylindre.",
+              "Factorisation de x² – a², a étant un entier naturel donné.",
+              "Développement de a(x + b), où a et b sont des entiers relatifs donnés.",
+              "Développement de (x + a)(x + b), où a et b sont des entiers relatifs donnés."
+            ],
+            "knowledge_exact": [
+              "Automatismes dans les domaines du calcul, des grandeurs et mesures et de la géométrie."
+            ],
+            "examples_algorithms_or_digital_activities_exact": [],
+            "comments_exact": [
+              "Les capacités attendues et énoncées ci-dessous n’ont pas vocation à faire l’objet d’un chapitre d’enseignement spécifique, car les notions qui les sous-tendent ont été travaillées dans les classes antérieures.",
+              "Elles relèvent d’un entraînement régulier sur l’ensemble de l’année sous forme d’activités rituelles construites autour d’intentions, telles que celles de consolider et d’élargir les acquis antérieurs, de rendre disponibles des réflexes en situation de résolution de problèmes, de se remémorer régulièrement des connaissances essentielles pour la suite des apprentissages, de diagnostiquer des difficultés persistantes…",
+              "Ces activités rituelles sont menées parallèlement à celle, habituelle, de résolution de problèmes dont elles peuvent ou ne peuvent pas être déconnectées en termes de contenus.",
+              "Parmi les tâches proposées, la pratique de « questions flash » privilégiant l’activité mentale permet au professeur de tester et d’entraîner régulièrement les élèves sur les automatismes à acquérir.",
+              "Les modalités de mise en œuvre doivent être variées et prendre appui sur différents supports : à l’oral, à l’écrit, individuellement ou en groupe, utilisant des outils numériques de vidéoprojection, de recensement instantané des réponses."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Construire et entretenir les automatismes.",
+              "Travailler régulièrement tout au long de l’année.",
+              "Privilégier des activités rituelles et des questions flash.",
+              "Varier les supports et les modalités."
+            ],
+            "digital_tools_role": [
+              "Utiliser au besoin des outils numériques de vidéoprojection et de recensement instantané des réponses.",
+              "Utiliser des outils numériques pour certains calculs d’indicateurs."
+            ]
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "seconde",
+              "type": "official_link",
+              "content": "Les automatismes figurant dans le programme de seconde professionnelle continuent à être entretenus."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "seconde",
+              "content": [
+                "Notions déjà travaillées dans les classes antérieures.",
+                "Calculs de base.",
+                "Grandeurs et mesures.",
+                "Géométrie usuelle."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Poser des questions flash.",
+              "Faire pratiquer régulièrement des tâches courtes.",
+              "Varier oral, écrit, individuel et groupe.",
+              "Faire mobiliser rapidement un automatisme dans une situation simple.",
+              "Faire repérer une difficulté persistante."
+            ],
+            "discouraged_methods": [
+              "Faire un chapitre spécifique d’automatismes.",
+              "Faire de longues explications théoriques.",
+              "Rendre les rituels monotones ou toujours identiques."
+            ],
+            "forbidden_methods": [
+              "Remplacer l’entraînement régulier par un travail ponctuel unique.",
+              "Donner directement les réponses sans laisser l’élève mobiliser le réflexe attendu."
+            ],
+            "common_pitfalls": [
+              "Manque de rapidité dans des tâches simples.",
+              "Erreurs de lecture graphique.",
+              "Erreurs de calcul algébrique élémentaire.",
+              "Confusions sur les solides et les figures.",
+              "Oubli des acquis antérieurs."
+            ],
+            "diagnostic_prompts": [
+              "Peux-tu répondre sans poser tout un raisonnement ?",
+              "Quel réflexe dois-tu mobiliser ici ?",
+              "Que lis-tu sur le graphique ?",
+              "Quelle formule ou procédure simple reconnais-tu ?",
+              "As-tu déjà rencontré ce type de tâche ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "context_examples_by_groupement": {
+            "A": [],
+            "B": [],
+            "C": []
+          }
+        }
+      ]
+    },
+    {
+      "label": "Vocabulaire ensembliste et logique",
+      "groupements": [
+        "A",
+        "B",
+        "C"
+      ],
+      "selection_mode": "transversal",
+      "chapter_selection": false,
+      "description_ui": "Ces notions sont transversales et mobilisées dans tous les chapitres.",
+      "knowledge_modal_enabled": true,
+      "official_program": {
+        "objectives_exact": [
+          "L’apprentissage des notations mathématiques, de la logique et des raisonnements est transversal à tous les chapitres du programme des trois années de formation."
+        ],
+        "comments_exact": [
+          "Il importe d’y travailler d’abord dans des contextes où ils se présentent naturellement, puis de prévoir des moments pour effectuer une synthèse de certains concepts ou une explicitation de types de raisonnement, après que ceux-ci ont été rencontrés plusieurs fois en situation.",
+          "Les élèves doivent connaître les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire et savoir utiliser les symboles de base correspondant : ∈, ⊂, ⋂, ⋃, ainsi que la notation des ensembles de nombres et des intervalles du type [ a ; b ] , ] a ; b [ , [ a ; b [ , ] a ; b ] avec a et b réels.",
+          "Ils rencontrent également la notion de couple.",
+          "Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation des probabilités Ā.",
+          "Pour ce qui concerne le raisonnement logique, les élèves rencontrent à la faveur d’exemples : les connecteurs logiques « et », « ou » ; le quantificateur « quel que soit » et le quantificateur « il existe » (les symboles ∀ et ∃ sont hors programme) ; des implications et équivalences logiques ; la réciproque d’une implication ; l’utilisation d’un contre-exemple pour infirmer une proposition universelle ; des raisonnements par disjonction des cas, des raisonnements par l’absurde.",
+          "Les élèves distinguent les utilisations possibles du symbole = (égalité, identité, équation) et le statut des lettres utilisées (variable, indéterminée, inconnue, paramètre)."
+        ]
+      },
+      "items": [
+        {
+          "key": "ensembles_operations",
+          "ui_label": "Ensembles et opérations",
+          "official_text": "Les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "symboles_base",
+          "ui_label": "Symboles de base",
+          "official_text": "Utiliser les symboles de base correspondant : ∈, ⊂, ⋂, ⋃.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "ensembles_nombres_intervalles",
+          "ui_label": "Ensembles de nombres et intervalles",
+          "official_text": "Utiliser la notation des ensembles de nombres et des intervalles du type [ a ; b ] , ] a ; b [ , [ a ; b [ , ] a ; b ] avec a et b réels.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "couple",
+          "ui_label": "Notion de couple",
+          "official_text": "Ils rencontrent également la notion de couple.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "complementaire",
+          "ui_label": "Complémentaire",
+          "official_text": "Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation des probabilités Ā.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "connecteurs_logiques",
+          "ui_label": "Connecteurs logiques",
+          "official_text": "Les connecteurs logiques « et », « ou ».",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "quantificateurs",
+          "ui_label": "Quantificateurs",
+          "official_text": "Le quantificateur « quel que soit » et le quantificateur « il existe » (les symboles ∀ et ∃ sont hors programme).",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "implications_equivalences",
+          "ui_label": "Implications, équivalences et réciproque",
+          "official_text": "Des implications et équivalences logiques ; la réciproque d’une implication.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "contre_exemple_absurde",
+          "ui_label": "Contre-exemple, disjonction des cas, absurde",
+          "official_text": "L’utilisation d’un contre-exemple pour infirmer une proposition universelle ; des raisonnements par disjonction des cas, des raisonnements par l’absurde.",
+          "teacher_tips": [],
+          "memory_aids": []
+        },
+        {
+          "key": "signe_egal_statut_lettres",
+          "ui_label": "Symbole = et statut des lettres",
+          "official_text": "Les élèves distinguent les utilisations possibles du symbole = (égalité, identité, équation) et le statut des lettres utilisées (variable, indéterminée, inconnue, paramètre).",
+          "teacher_tips": [],
+          "memory_aids": []
+        }
+      ],
+      "official_pedagogical_clues": {
+        "important_points": [
+          "Travailler ces notions dans des contextes naturels puis faire des synthèses.",
+          "Faire vivre ces notions dans tous les chapitres du programme.",
+          "Ne pas sortir du cadre des symboles et raisonnements explicitement attendus."
+        ],
+        "digital_tools_role": []
+      },
+      "cross_level_bridges": [
+        {
+          "from_level": "trois_annees_formation",
+          "type": "official_link",
+          "content": "Ces notions sont transversales à tous les chapitres du programme des trois années de formation."
+        }
+      ],
+      "prerequisites": [
+        {
+          "from_level": "anterieur",
+          "content": [
+            "Premiers usages des symboles mathématiques.",
+            "Lecture de phrases mathématiques.",
+            "Raisonnements rencontrés dans des contextes simples."
+          ]
+        }
+      ],
+      "aria_guidance": {
+        "allowed_methods": [
+          "Faire reformuler en langage courant puis en langage mathématique.",
+          "Faire distinguer appartenance et inclusion.",
+          "Faire distinguer réunion et intersection.",
+          "Faire distinguer égalité, identité et équation.",
+          "Faire préciser le statut d’une lettre : variable, inconnue, paramètre ou indéterminée.",
+          "Faire utiliser les mots « et », « ou », « quel que soit », « il existe » dans des exemples."
+        ],
+        "discouraged_methods": [
+          "Faire un cours de logique trop théorique et déconnecté.",
+          "Utiliser massivement des symboles hors programme.",
+          "Basculer vers un formalisme universitaire."
+        ],
+        "forbidden_methods": [
+          "Présenter ∀ et ∃ comme exigibles.",
+          "Employer un niveau de formalisme logique hors cadre bac professionnel."
+        ],
+        "common_pitfalls": [
+          "Confondre ∈ et ⊂.",
+          "Confondre ⋂ et ⋃.",
+          "Confondre implication et équivalence.",
+          "Ne pas distinguer égalité, identité et équation.",
+          "Ne pas identifier le bon statut d’une lettre."
+        ],
+        "diagnostic_prompts": [
+          "Parle-t-on d’un élément ou d’un sous-ensemble ?",
+          "Que signifie ce symbole ici ?",
+          "Est-ce une réunion ou une intersection ?",
+          "Est-ce une égalité, une identité ou une équation ?",
+          "La lettre joue-t-elle le rôle de variable, d’inconnue ou de paramètre ?"
+        ]
+      },
+      "teacher_custom_guidance": {
+        "teacher_tips": [],
+        "memory_aids": []
+      },
+      "chapters": [
+        {
+          "chapter_key": "vocabulaire_ensembliste_logique",
+          "label": "Vocabulaire ensembliste et logique",
+          "groupements": [
+            "A",
+            "B",
+            "C"
+          ],
+          "official_program": {
+            "objectives_exact": [
+              "L’apprentissage des notations mathématiques, de la logique et des raisonnements est transversal à tous les chapitres du programme des trois années de formation."
+            ],
+            "comments_exact": [
+              "Il importe d’y travailler d’abord dans des contextes où ils se présentent naturellement, puis de prévoir des moments pour effectuer une synthèse de certains concepts ou une explicitation de types de raisonnement, après que ceux-ci ont été rencontrés plusieurs fois en situation.",
+              "Les élèves doivent connaître les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire et savoir utiliser les symboles de base correspondant : ∈, ⊂, ⋂, ⋃, ainsi que la notation des ensembles de nombres et des intervalles du type [ a ; b ] , ] a ; b [ , [ a ; b [ , ] a ; b ] avec a et b réels.",
+              "Ils rencontrent également la notion de couple.",
+              "Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation des probabilités Ā.",
+              "Pour ce qui concerne le raisonnement logique, les élèves rencontrent à la faveur d’exemples : les connecteurs logiques « et », « ou » ; le quantificateur « quel que soit » et le quantificateur « il existe » (les symboles ∀ et ∃ sont hors programme) ; des implications et équivalences logiques ; la réciproque d’une implication ; l’utilisation d’un contre-exemple pour infirmer une proposition universelle ; des raisonnements par disjonction des cas, des raisonnements par l’absurde.",
+              "Les élèves distinguent les utilisations possibles du symbole = (égalité, identité, équation) et le statut des lettres utilisées (variable, indéterminée, inconnue, paramètre)."
+            ]
+          },
+          "official_pedagogical_clues": {
+            "important_points": [
+              "Travailler ces notions dans des contextes naturels puis faire des synthèses.",
+              "Faire vivre ces notions dans tous les chapitres du programme.",
+              "Ne pas sortir du cadre des symboles et raisonnements explicitement attendus."
+            ],
+            "digital_tools_role": []
+          },
+          "cross_level_bridges": [
+            {
+              "from_level": "trois_annees_formation",
+              "type": "official_link",
+              "content": "Ces notions sont transversales à tous les chapitres du programme des trois années de formation."
+            }
+          ],
+          "prerequisites": [
+            {
+              "from_level": "anterieur",
+              "content": [
+                "Premiers usages des symboles mathématiques.",
+                "Lecture de phrases mathématiques.",
+                "Raisonnements rencontrés dans des contextes simples."
+              ]
+            }
+          ],
+          "aria_guidance": {
+            "allowed_methods": [
+              "Faire reformuler en langage courant puis en langage mathématique.",
+              "Faire distinguer appartenance et inclusion.",
+              "Faire distinguer réunion et intersection.",
+              "Faire distinguer égalité, identité et équation.",
+              "Faire préciser le statut d’une lettre : variable, inconnue, paramètre ou indéterminée.",
+              "Faire utiliser les mots « et », « ou », « quel que soit », « il existe » dans des exemples."
+            ],
+            "discouraged_methods": [
+              "Faire un cours de logique trop théorique et déconnecté.",
+              "Utiliser massivement des symboles hors programme.",
+              "Basculer vers un formalisme universitaire."
+            ],
+            "forbidden_methods": [
+              "Présenter ∀ et ∃ comme exigibles.",
+              "Employer un niveau de formalisme logique hors cadre bac professionnel."
+            ],
+            "common_pitfalls": [
+              "Confondre ∈ et ⊂.",
+              "Confondre ⋂ et ⋃.",
+              "Confondre implication et équivalence.",
+              "Ne pas distinguer égalité, identité et équation.",
+              "Ne pas identifier le bon statut d’une lettre."
+            ],
+            "diagnostic_prompts": [
+              "Parle-t-on d’un élément ou d’un sous-ensemble ?",
+              "Que signifie ce symbole ici ?",
+              "Est-ce une réunion ou une intersection ?",
+              "Est-ce une égalité, une identité ou une équation ?",
+              "La lettre joue-t-elle le rôle de variable, d’inconnue ou de paramètre ?"
+            ]
+          },
+          "teacher_custom_guidance": {
+            "teacher_tips": [],
+            "memory_aids": []
+          },
+          "items": [
+            {
+              "key": "ensembles_operations",
+              "ui_label": "Ensembles et opérations",
+              "official_text": "Les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "symboles_base",
+              "ui_label": "Symboles de base",
+              "official_text": "Utiliser les symboles de base correspondant : ∈, ⊂, ⋂, ⋃.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "ensembles_nombres_intervalles",
+              "ui_label": "Ensembles de nombres et intervalles",
+              "official_text": "Utiliser la notation des ensembles de nombres et des intervalles du type [ a ; b ] , ] a ; b [ , [ a ; b [ , ] a ; b ] avec a et b réels.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "couple",
+              "ui_label": "Notion de couple",
+              "official_text": "Ils rencontrent également la notion de couple.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "complementaire",
+              "ui_label": "Complémentaire",
+              "official_text": "Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation des probabilités Ā.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "connecteurs_logiques",
+              "ui_label": "Connecteurs logiques",
+              "official_text": "Les connecteurs logiques « et », « ou ».",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "quantificateurs",
+              "ui_label": "Quantificateurs",
+              "official_text": "Le quantificateur « quel que soit » et le quantificateur « il existe » (les symboles ∀ et ∃ sont hors programme).",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "implications_equivalences",
+              "ui_label": "Implications, équivalences et réciproque",
+              "official_text": "Des implications et équivalences logiques ; la réciproque d’une implication.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "contre_exemple_absurde",
+              "ui_label": "Contre-exemple, disjonction des cas, absurde",
+              "official_text": "L’utilisation d’un contre-exemple pour infirmer une proposition universelle ; des raisonnements par disjonction des cas, des raisonnements par l’absurde.",
+              "teacher_tips": [],
+              "memory_aids": []
+            },
+            {
+              "key": "signe_egal_statut_lettres",
+              "ui_label": "Symbole = et statut des lettres",
+              "official_text": "Les élèves distinguent les utilisations possibles du symbole = (égalité, identité, équation) et le statut des lettres utilisées (variable, indéterminée, inconnue, paramètre).",
+              "teacher_tips": [],
+              "memory_aids": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
