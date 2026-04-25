@@ -2741,15 +2741,16 @@ body:has(#studentScreen:not(.hidden)) .frame{
 <div class="app-shell">
   <div class="frame">
     <header class="topbar">
-      <div class="brand"><div class="brand-badge brand-badge-logo"><img src="A.R.I.A.png" alt="A.R.I.A" class="brand-logo"></div><div><div class="brand-kicker">Un cadre structuré pour apprendre avec l’IA</div><div class="brand-title"><span class="brand-title-main">A.R.I.A</span><span class="brand-title-expansion">(Agent de Réflexion Interactive pour l’Autonomie)</span></div><div class="brand-subtitle">Un espace pensé pour aider les élèves à réfléchir, progresser et gagner en autonomie.</div></div></div>
+      <div class="brand"><div class="brand-badge brand-badge-logo"><img src="A.R.I.A.png" alt="A.R.I.A" class="brand-logo"></div><div><div class="brand-kicker">Dispositif d’apprentissage de l’usage de l’IA en contexte scolaire</div><div class="brand-title"><span class="brand-title-main">A.R.I.A</span><span class="brand-title-expansion">(Agent de Réflexion Interactive pour l’Autonomie)</span></div><div class="brand-subtitle">Un espace pensé pour aider les élèves à réfléchir, progresser et gagner en autonomie.</div></div></div>
       <div id="topScreenChip" class="top-chip hidden"></div>
     </header>
     <main class="content">
       <section id="homeScreen" class="home-vibe-screen">
         <div class="home-vibe-panel">
           <h1 class="home-vibe-title">A.R.I.A</h1>
-          <div class="home-vibe-subtitle">Agent de Réflexion Innovant pour les Apprentissages</div>
-          <p class="home-vibe-text">Un espace pensé pour aider les élèves à réfléchir, progresser et gagner en autonomie dans leur apprentissage à l’ère de l’IA.</p>
+          <div class="home-vibe-subtitle">Apprentissage et Régulation de l’Interaction avec l’IA</div>
+          <p class="home-vibe-text">Un espace pour explorer, questionner et structurer ses demandes avec l’intelligence artificielle, à partir d’activités scolaires.
+Les interactions sont cadrées, analysées et exploitables pour comprendre comment apprendre avec l’IA.</p>
           <div class="home-vibe-actions">
             <button id="goTeacherBtn" class="home-vibe-btn home-vibe-btn-primary">Espace enseignant</button>
             <button id="goStudentBtn" class="home-vibe-btn home-vibe-btn-secondary">Espace élève</button>
@@ -2764,7 +2765,7 @@ body:has(#studentScreen:not(.hidden)) .frame{
       <div class="teacher-app-header">
         <div class="teacher-app-brand">
           <h1 class="teacher-app-title">A.R.I.A</h1>
-          <div class="teacher-app-subtitle">Agent de Réflexion Innovant pour les Apprentissages</div>
+          <div class="teacher-app-subtitle">Apprentissage et Régulation de l’Interaction avec l’IA</div>
         </div>
         <button class="back-btn teacher-back-btn" id="teacherBackBtn">← Retour</button>
       </div>
@@ -3170,7 +3171,7 @@ async function loadMathsProgramReference(){
   }
 }
 
-const ARIA_IDENTITY = { fullName:"A.R.I.A", expansion:"Agent de Réflexion Interactive pour l’Autonomie", signature:"A.R.I.A — un espace pour réfléchir et progresser.", anecdote:"" };
+const ARIA_IDENTITY = { fullName:"A.R.I.A", expansion:"Apprentissage et Régulation de l’Interaction avec l’IA", signature:"A.R.I.A — Dispositif d’apprentissage de l’usage de l’IA en contexte scolaire", anecdote:"" };
 const state = {
   teacher:{ level:"seconde", domain:"Algèbre – Analyse", chapter:"", mode:"decouverte", teacherSupport:"", currentSessionCode:"", summary:null, selectedCapacities:[], selectedAutomatisms:[] },
   student:{ participantId:"", creditsRemaining:300, requestsCount:0, mode:"decouverte", modeLabel:"Découverte", sessionCode:"", sessionLabel:"Aucun niveau sélectionné", level:"seconde", showCreditsLegend:false, history:[], currentCheckId:"", currentQuestions:[], currentAnswers:{}, currentQuestionIndex:0, isStartingCheck:false },
